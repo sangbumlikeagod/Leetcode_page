@@ -38,4 +38,4 @@ class Solution:
         for i in arr:
             table[i] = table.get(i - difference,0) + 1
         
-        return max(table.values())      
+        return max(table.values())       

@@ -20,3 +20,5 @@ a = Solution()
 nums = [1,3,5,6]
 target = 7
 print(a.searchInsert(nums, target))
+
+# 이진검색에서 원하는 숫자가 문제에 없을 겨웅 

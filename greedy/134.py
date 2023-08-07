@@ -1,5 +1,5 @@
 class Solution:
-    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+    def canCompleteCircuit(self, gas: list[int], cost: list[int]) -> int:
         left_sum = 0
         right_sum = 0
         idx = 0 

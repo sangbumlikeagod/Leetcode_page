@@ -39,3 +39,6 @@ class Solution:
             table[i] = table.get(i - difference,0) + 1
         
         return max(table.values())       
+    
+
+repr

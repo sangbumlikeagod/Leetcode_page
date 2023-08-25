@@ -1,5 +1,5 @@
 
-N, M = 10, 40
+N, M = 10 , 40
 
 omega = M % (N + 1) if M % (N + 1) else N + 1
 print(N - omega + 1 ,  M // (N + 1))

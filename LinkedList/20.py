@@ -18,9 +18,6 @@ class Solution:
         else:
             merge = list2
             list2 = list2.next
-        
-        
-        
         while list1 and list2:
             if list1.val < list2.val:
                 merge.next = list1

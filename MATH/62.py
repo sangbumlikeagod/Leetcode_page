@@ -5,4 +5,4 @@ class Solution:
         for i in range(1, (m + n + 1)):
             total *= i
             memorization[i] = total
-        
+        return total // (memorization[m] * memorization[n])

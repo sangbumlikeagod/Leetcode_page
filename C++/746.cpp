@@ -13,7 +13,7 @@ public:
         // cout << visited[0];
 
         while (p_qu_g.size()){
-            pair<int, int> tmp = p_qu_g.top();
+            pair<int, int> tmp = p_qu_g.top(); 
             if (tmp.second >= cost.size()) {
                 return tmp.first;
             }

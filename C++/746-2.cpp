@@ -3,6 +3,7 @@
 
 using namespace std;
 class Solution {
+    
 public:
     int dp(int num){
         if (visited[num])
@@ -22,8 +23,8 @@ public:
             visited[num] = p1;
         }
         return visited[num];
-
     };
+
     int minCostClimbingStairs(vector<int>& cost)
     {
         vector<int> visited(cost.size(), 0);

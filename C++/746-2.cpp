@@ -3,26 +3,35 @@
 
 using namespace std;
 class Solution {
-    
+private:
+    vector visited;
+
 public:
-    int dp(int num){
-        if (visited[num])
+    int Solution::dp(int num)
+    {
+        if (this.visited[num])
         {
-            return visited[num]
+            return this.visited[num]
         }
-        if (num == visitied.size() - 1){
+        if (num == this.visitied.size() - 1)
+        {
             return 0;
-        } else if (num >= visited.size()){
+        }
+        else if (num >= this.visited.size())
+        {
             return 100000000;
         }
         int p1 = cost[num] + dp(num + 1);
         int p2 = cost[num] + dp(num + 2);
-        if (p1 >= p2){
-            visited[num] = p2;
-        } else {
-            visited[num] = p1;
+        if (p1 >= p2)
+        {
+            this.visited[num] = p2;
         }
-        return visited[num];
+        else
+        {
+            this.visited[num] = p1;
+        }
+        return this.visited[num];
     };
 
     int minCostClimbingStairs(vector<int>& cost)
@@ -47,6 +56,7 @@ public:
 int main(){
     Solution a;
     vector<int> cost = {10, 15, 20};
+    public vector<int> visited(cost.size(), 0);
     a.minCostClimbingStairs(cost);
     return 0;
 }

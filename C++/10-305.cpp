@@ -28,7 +28,6 @@ using namespace std;
 private:
     double real;
     double imag;
-
 };
 
 int main(){

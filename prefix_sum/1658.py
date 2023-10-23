@@ -56,9 +56,11 @@ class Solution:
         min_val = length + 1
         while start <= end < length:
             if total - summ == x:
-
                 min_val = min(min_val, length - (end - start))
-            
+                summ -= nums[start]
+                summ += nums[end]
+                start += 1
+                end += 1
             elif total - summ < x:
                 summ -= nums[start]
                 start += 1

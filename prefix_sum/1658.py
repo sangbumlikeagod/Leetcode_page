@@ -18,7 +18,7 @@
 # 구간합 버전
 
 class Solution:
-    def minOperations(self, nums: list[int], x: int) -> int:
+    def minOperations(self, nums: list[int], x: int) -> int:        
         from itertools import accumulate    
         # 왼쪽 k개 부터 오른쪽 k개까지 이어지니 
         ac = list(accumulate(nums))

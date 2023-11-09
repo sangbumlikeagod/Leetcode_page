@@ -13,18 +13,19 @@ public:
             if (k % 2 == 1){
                 int a = kthGrammar(n - 1, (k + 1) / 2);
                 if (a == 1){
-                    return 0;
-                } else {
                     return 1;
+                } else {
+                    return 0;
                 }
             } else {
                 int a = kthGrammar(n - 1, (k) / 2);
                 if (a == 1){
-                    return 1;
-                } else {
                     return 0;
+                } else {
+                    return 1;
                 }
             }
         }
     }
 };
+

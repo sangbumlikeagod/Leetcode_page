@@ -3,8 +3,7 @@ class Solution
 public:
     bool isReachableAtTime(int sx, int sy, int fx, int fy, int t)
     {
-        int tmp;
-        if (sx > fx)
+        int tmp;        if (sx > fx)
         {
             tmp = sx;
             sx = fx;

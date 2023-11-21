@@ -32,6 +32,7 @@ public:
             nums[p1] = nums[p1] ^ nums[p2];
 
         }
+        
         // for (int i = idx - p1; i > 0; i--){
         //     cout << i << endl;
         //     nums.pop_back();

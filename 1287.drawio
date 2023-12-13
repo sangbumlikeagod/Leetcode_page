@@ -1,0 +1,102 @@
+<mxfile host="Electron" modified="2023-12-13T01:25:38.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="ggXG0NHdlCIYCgCh9LBr" version="22.1.2" type="device">
+  <diagram name="페이지-1" id="7udnFObdCA67QGpmPi0c">
+    <mxGraphModel dx="989" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-1" value="&lt;h1&gt;&lt;a tabindex=&quot;0&quot; data-token-index=&quot;0&quot; rel=&quot;noopener noreferrer&quot; class=&quot;notion-link-token notion-focusable-token notion-enable-hover&quot; style=&quot;cursor: pointer; color: inherit; overflow-wrap: break-word; text-decoration: inherit;&quot; href=&quot;https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/&quot;&gt;1287. Element Appearing More Than 25% In Sorted Array&lt;/a&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Given an integer array&amp;nbsp;&lt;strong&gt;sorted&lt;/strong&gt;&amp;nbsp;in non-decreasing order, there is exactly one integer in the array that occurs more than 25% of the time, return that integer.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="30" width="770" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-2" target="fzakhV6fVOTR4ITvQFsA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-17" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fzakhV6fVOTR4ITvQFsA-4">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-2" target="fzakhV6fVOTR4ITvQFsA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-20" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fzakhV6fVOTR4ITvQFsA-19">
+          <mxGeometry x="-0.225" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-2" value="벡터의 길이가 2개 이하인가?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-43" target="fzakhV6fVOTR4ITvQFsA-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="590.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-3" target="fzakhV6fVOTR4ITvQFsA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-3" target="fzakhV6fVOTR4ITvQFsA-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-3" value="인덱스 head,&lt;br&gt;인덱스 tail, 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="461" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-5" target="fzakhV6fVOTR4ITvQFsA-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-5" target="fzakhV6fVOTR4ITvQFsA-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-5" value="head == tail일 동안 반복" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="560" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-16" value="입력값 : vector&amp;lt;int&amp;gt;&lt;br&gt;size" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="59" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-18" value="return vector[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="320" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-21" target="fzakhV6fVOTR4ITvQFsA-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="564" y="870" />
+              <mxPoint x="564" y="591" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-21" value="tail++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="839" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-28" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-26" target="fzakhV6fVOTR4ITvQFsA-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="383" y="799" />
+              <mxPoint x="481" y="799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-26" target="fzakhV6fVOTR4ITvQFsA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-26" value="( tail - head ) * 4&amp;gt;= size 인가?&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="709" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-29" value="return vectir[head]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="709" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fzakhV6fVOTR4ITvQFsA-35" target="fzakhV6fVOTR4ITvQFsA-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-35" value="head = tail&lt;br&gt;tail = head + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="560" width="142" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="fzakhV6fVOTR4ITvQFsA-43" value="tail &amp;lt; size인 동안 반복" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="461" width="142" height="61" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

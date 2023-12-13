@@ -9,29 +9,18 @@ public:
 
         while (newIdx >= 0)
         {
-            if (nums[idx] < nums[newIdx--])
+            if (nums[idx] > nums[newIdx--])
             {
                 int tmp = nums[idx];
                 nums[idx] = nums[newIdx + 1];
-                nums[newIdx] = tmp;
+                nums[newIdx + 1] = tmp;
+                sort(nums[newIdx + 2], nums.end());
                 return 1;
             }
         }
         int result = change(nums, idx - 1);
-        if (!result) return 0;
-        newIdx = idx - 1;
-
-        while (newIdx >= 0)
-        {
-            if (nums[idx] < nums[newIdx--])
-            {
-                int tmp = nums[idx];
-                nums[idx] = nums[newIdx + 1];
-                nums[newIdx] = tmp;
-                return 1;
-            }
-        }
-        return 1;
+        if (!result) {return 0;}
+        else {return 1}
 
     }
     void nextPermutation(vector<int>& nums) {

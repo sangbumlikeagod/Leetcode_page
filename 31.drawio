@@ -1,0 +1,479 @@
+<mxfile host="Electron" modified="2023-12-13T10:00:03.552Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="0ZOBzGYqhPb8BMHWk1rV" version="22.1.2" type="device">
+  <diagram name="페이지-1" id="ZLX4_90MdBkoNCsnOVYq">
+    <mxGraphModel dx="2089" dy="1584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ndvWxEDsztB4h_BiB89W-40" value="int Change" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="160" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-41" value="vector&amp;lt;int&amp;gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nums&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-40">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-42" value="int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;idx" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-40">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-43" value="int &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;newIdx" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-40">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-81" value="int &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;result" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-40">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-46" value="31. Next Permutation" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="10" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-47" value="nextPermutation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="60" width="160" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-48" value="vector&amp;lt;int&amp;gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nums" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-47">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-49" value="int&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;result" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-47">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-50" value="Item 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-47">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-52" target="ndvWxEDsztB4h_BiB89W-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-52" target="ndvWxEDsztB4h_BiB89W-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-52" value="newIdx 가 0보다 같거나 클동안 반복" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-55" target="ndvWxEDsztB4h_BiB89W-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-59" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-57">
+          <mxGeometry x="-0.3636" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-55" target="ndvWxEDsztB4h_BiB89W-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-60" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-58">
+          <mxGeometry x="-0.3778" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-55" value="Idx가 0인가?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-56" value="return 0;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-63" target="ndvWxEDsztB4h_BiB89W-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-71" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-69">
+          <mxGeometry x="-0.3455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-63" target="ndvWxEDsztB4h_BiB89W-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="650" />
+              <mxPoint x="590" y="650" />
+              <mxPoint x="590" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-74" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-73">
+          <mxGeometry x="0.275" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-63" target="ndvWxEDsztB4h_BiB89W-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-63" target="ndvWxEDsztB4h_BiB89W-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-63" value="nums[idx] &amp;lt; nums[newIdx--] 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="480" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-68" target="ndvWxEDsztB4h_BiB89W-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-68" value="nums[idx] = nums[newIdx]&lt;br&gt;nums[newidx] = num[idx]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-76" target="ndvWxEDsztB4h_BiB89W-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-76" value="result = vector&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-82" target="ndvWxEDsztB4h_BiB89W-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="850" />
+              <mxPoint x="660" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-86" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-84">
+          <mxGeometry x="-0.9241" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-82" target="ndvWxEDsztB4h_BiB89W-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-91" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-90">
+          <mxGeometry x="-0.5556" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-82" value="result가 0 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="810" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-89" target="ndvWxEDsztB4h_BiB89W-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-89" value="newIdx = idx - 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-94" value="return 1;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-98" target="ndvWxEDsztB4h_BiB89W-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-98" value="newIdx 가 0보다 같거나 클동안 반복" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1030" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-105" target="ndvWxEDsztB4h_BiB89W-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-100" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-99">
+          <mxGeometry x="-0.3455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-105" target="ndvWxEDsztB4h_BiB89W-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1310" />
+              <mxPoint x="595" y="1310" />
+              <mxPoint x="595" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-102" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-101">
+          <mxGeometry x="0.275" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-105" target="ndvWxEDsztB4h_BiB89W-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-105" target="ndvWxEDsztB4h_BiB89W-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-105" value="nums[idx] &amp;lt; nums[newIdx--] 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1140" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-107" target="ndvWxEDsztB4h_BiB89W-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-107" value="nums[idx] = nums[newIdx]&lt;br&gt;nums[newidx] = num[idx]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1110" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-108" value="return 1;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-110" value="return 1;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-112" target="ndvWxEDsztB4h_BiB89W-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-112" value="result = Change(nums, nums.size() - 1);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="200" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-113" target="ndvWxEDsztB4h_BiB89W-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-119" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-116">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-113" target="ndvWxEDsztB4h_BiB89W-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-120" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-118">
+          <mxGeometry x="-0.2667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-113" value="result가 0인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="390" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-115" value="return;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-117" value="nums.sort()&lt;br&gt;역방향" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-124" target="ndvWxEDsztB4h_BiB89W-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-124" target="ndvWxEDsztB4h_BiB89W-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-124" value="newIdx 가 0보다 같거나 클동안 반복" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1610" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-129" target="ndvWxEDsztB4h_BiB89W-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-126" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-125">
+          <mxGeometry x="-0.3636" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-129" target="ndvWxEDsztB4h_BiB89W-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-128" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-127">
+          <mxGeometry x="-0.3778" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-129" value="Idx가 0인가?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1490" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-130" value="return 0;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="449" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-137" target="ndvWxEDsztB4h_BiB89W-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-132" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-131">
+          <mxGeometry x="-0.3455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-137" target="ndvWxEDsztB4h_BiB89W-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1950" />
+              <mxPoint x="625" y="1950" />
+              <mxPoint x="625" y="1625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-134" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-133">
+          <mxGeometry x="0.275" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-137" target="ndvWxEDsztB4h_BiB89W-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-137" target="ndvWxEDsztB4h_BiB89W-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-137" value="nums[idx] &amp;lt; nums[newIdx--] 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1730" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-138" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-139" target="ndvWxEDsztB4h_BiB89W-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-139" value="nums[idx] = nums[newIdx]&lt;br&gt;nums[newidx] = num[idx]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1740" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-141" target="ndvWxEDsztB4h_BiB89W-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-141" target="ndvWxEDsztB4h_BiB89W-146">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-141" value="result = vector&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-146" target="ndvWxEDsztB4h_BiB89W-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="2100" />
+              <mxPoint x="695" y="1530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-143" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-142">
+          <mxGeometry x="-0.9241" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-146" target="ndvWxEDsztB4h_BiB89W-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-145" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-144">
+          <mxGeometry x="-0.5556" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-146" value="result가 0 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2060" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-148" value="return 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-149" value="return 1;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-164" target="ndvWxEDsztB4h_BiB89W-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-164" value="sort(nums[newIdx + 1], nums.end())" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1860" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-169" target="ndvWxEDsztB4h_BiB89W-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-169" target="ndvWxEDsztB4h_BiB89W-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="965" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-169" value="newIdx 가 0보다 같거나 클동안 반복" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1620" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-174" target="ndvWxEDsztB4h_BiB89W-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-171" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-170">
+          <mxGeometry x="-0.3636" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-174" target="ndvWxEDsztB4h_BiB89W-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-173" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-172">
+          <mxGeometry x="-0.3778" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-174" value="Idx가 0인가?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1480" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-175" value="return makepair(101, 0);" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1164" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-182" target="ndvWxEDsztB4h_BiB89W-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-177" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-176">
+          <mxGeometry x="-0.3455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-182" target="ndvWxEDsztB4h_BiB89W-169">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="1940" />
+              <mxPoint x="1340" y="1940" />
+              <mxPoint x="1340" y="1640" />
+              <mxPoint x="1090" y="1640" />
+              <mxPoint x="1090" y="1635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-179" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-178">
+          <mxGeometry x="0.275" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-180" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-182" target="ndvWxEDsztB4h_BiB89W-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-181" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-182" target="ndvWxEDsztB4h_BiB89W-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-182" value="nums[idx] &amp;lt; nums[newIdx--] 인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1720" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-184" value="myResult = makepair(newidx + 1, idx)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-187" value="&lt;span style=&quot;text-align: left;&quot;&gt;PreResult = change(nums, idx - 1)&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-193" value="return min(myResult, PreResult)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="2040" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-197" value="Pair&lt;int, int&gt; Change" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="885" y="1200" width="160" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-198" value="vector&amp;lt;int&amp;gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;nums&lt;br&gt;&lt;br&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-197">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-202" value="&#x9;pair&amp;lt;int, int&amp;gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;myResult" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-197">
+          <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-199" value="int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;idx" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-197">
+          <mxGeometry y="86" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-200" value="int &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;newIdx" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-197">
+          <mxGeometry y="116" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-201" value="pair&amp;lt;int, int&amp;gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PreResult" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="ndvWxEDsztB4h_BiB89W-197">
+          <mxGeometry y="146" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-203" value="myResult = makepair(101,&amp;nbsp; idx)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="1390" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-205" target="ndvWxEDsztB4h_BiB89W-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-205" value="result = Change(nums, nums.size() - 1);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1480" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-210" target="ndvWxEDsztB4h_BiB89W-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-207" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-206">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-208" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-210" target="ndvWxEDsztB4h_BiB89W-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-209" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ndvWxEDsztB4h_BiB89W-208">
+          <mxGeometry x="-0.2667" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-210" value="result.first가 101인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1670" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-211" value="nums.sort()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-212" value="nums.sort()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-213" value="nums[idx] = nums[newIdx]&lt;br&gt;nums[newidx] = num[idx]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1590" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ndvWxEDsztB4h_BiB89W-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ndvWxEDsztB4h_BiB89W-213" target="ndvWxEDsztB4h_BiB89W-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

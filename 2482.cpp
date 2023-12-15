@@ -13,7 +13,6 @@ public:
                 zeroOne[m + j] += grid[i][j];
             }
         }
-
         vector<vector<int>> ans = vector<vector<int>>(m, vector<int>);
     }
 };

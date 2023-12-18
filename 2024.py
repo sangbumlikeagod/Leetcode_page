@@ -22,3 +22,4 @@ class Solution:
                 table[answerKey[i]]-=1
                 i+=1
         return ans          
+    

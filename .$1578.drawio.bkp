@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2023-12-27T16:52:09.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="YKhUlI5_EjKMPLyzcRXk" version="22.1.11" type="device">
+  <diagram name="페이지-1" id="yExfA1HMY-iVfX2qxn-R">
+    <mxGraphModel dx="454" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-1" value="int idx = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-2" value="idx &amp;lt; neededTime.size() - 1인 동안 반복" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-3" value="idx와 idx + 1이 다른가?" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-5" value="idx2 = idx + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-6" value="idx2 + 1 != idx2 이고 idx2 &amp;lt; size() - 1 인동안 반복" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="180" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-7" value="idx2 = idx + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-9" value="totalVal = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-10" value="maxVak = 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-11" value="maxVal = max(maxVal, neededTime[idx2])" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="910" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-13" value="totalVal += neededTime[idx2]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MctMy6eOxU_ym_hAtA6K-14" value="res" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

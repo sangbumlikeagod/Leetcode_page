@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2024-01-08T15:03:18.322Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="eg7f7XzPQyTxtekhr8zx" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="nNXex8MyPutgoVyv68te">
+    <mxGraphModel dx="1670" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-1" value="isleft&amp;nbsp; = false&lt;br&gt;isright = false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-3" value="left, right 모두 정착하지 못한 동안 반복" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="320" width="1480" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-4" value="left, right의 값이 같은가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="80" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-7" value="isleft 가 false인가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="530" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-9" value="low가 leftval보다 큰가" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="540" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-11" value="같은가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="560" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-12" value="작은가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="560" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-13" value="left.right가 있는가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="700" y="110" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-14" value="isleft = true&lt;br&gt;ans += left.val" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="700" y="200" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-15" value="left.left가 있는가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="700" y="280" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-16" value="isleft = true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="700" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-18" value="left = left.left" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="820" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="975" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-8" value="isright 가 false인가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="970" y="35" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-19" value="left = left.right" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="820" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-20" value="isleft = true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="695" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-21" value="low 보다 크고 high 보다 큰가" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="45" y="140" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-25" value="low 보다 작고 high 보다 작은가" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="45" y="225" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-26" value="low 보다 큰데 high 보다 작은가" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="45" y="310" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-28" value="left.left가 있는가에 따라 isleft관리" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="280" y="317.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-29" value="둘과 같은가" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="45" y="390" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I7oBJSn-j_4WHiKQsq1_-30" value="return left.val" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I7oBJSn-j_4WHiKQsq1_-3">
+          <mxGeometry x="300" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

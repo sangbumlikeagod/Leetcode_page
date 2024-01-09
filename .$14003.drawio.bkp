@@ -1,0 +1,81 @@
+<mxfile host="Electron" modified="2024-01-07T16:17:14.125Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8QRXMDHzGr4ffWslhayt" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="niabdNpzzTjDZwMe5Ury">
+    <mxGraphModel dx="1660" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-1" value="int dp[1000000]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-2" value="필요값들 입력" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-4" value="num 모든 요소들에 대해서 반복" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="818.82" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-5" value="i와 j가 다른동안 반복" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="56" y="110" width="635.65" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kLXkeZlTWQtyVMKGnSe4-5" source="kLXkeZlTWQtyVMKGnSe4-10" target="kLXkeZlTWQtyVMKGnSe4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kLXkeZlTWQtyVMKGnSe4-5" source="kLXkeZlTWQtyVMKGnSe4-10" target="kLXkeZlTWQtyVMKGnSe4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-10" value="dp[m].fisrt이 x값보다 작은가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-5">
+          <mxGeometry x="110" y="110" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-11" value="int m = (i + j) / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-5">
+          <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-12" value="i = m + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-5">
+          <mxGeometry x="125" y="204" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-13" value="&amp;nbsp;j = m" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-5">
+          <mxGeometry x="274" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="kLXkeZlTWQtyVMKGnSe4-4" source="kLXkeZlTWQtyVMKGnSe4-9" target="kLXkeZlTWQtyVMKGnSe4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="90" />
+              <mxPoint x="374" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-9" value="int i = 0, int j = size" style="whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="80" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-26" value="nums[k]가 size인가?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="80" y="550" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-27" value="size++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="90" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-28" value="pass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="240" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-31" value="prev[k] = dp[ i -1] .second" style="whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="230" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-25" value="dp[i] = make_pair(nums[k], k)" style="whiteSpace=wrap;html=1;" vertex="1" parent="kLXkeZlTWQtyVMKGnSe4-4">
+          <mxGeometry x="56" y="482.5" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="kLXkeZlTWQtyVMKGnSe4-4" source="kLXkeZlTWQtyVMKGnSe4-5" target="kLXkeZlTWQtyVMKGnSe4-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-6" value="int size = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kLXkeZlTWQtyVMKGnSe4-6" target="kLXkeZlTWQtyVMKGnSe4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-32" value="int prev[1000000]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kLXkeZlTWQtyVMKGnSe4-33" value="int ans[1000000]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

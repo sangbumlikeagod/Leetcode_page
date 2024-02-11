@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2024-02-11T03:49:18.338Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="KPaY_cafK1hMUn1UhW1B" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="jqwLVrTWr62sQ8fzLnXL">
+    <mxGraphModel dx="555" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-1" value="카드배열과 짝 배열 추가" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-2" value="ㅂㄴ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=55;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="380" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-4" value="인덱스가 size보다 작은동안 반복" style="rounded=0;whiteSpace=wrap;html=1;shape=swimlane;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="390" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-5" value="각각 두개에 대해서" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-4">
+          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-6" value="둘이 물빨 중인가?" style="rounded=1;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-4">
+          <mxGeometry x="60" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-7" value="코인 1개에서 2개까지써서 life추가" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-4">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-8" value="life --" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-4">
+          <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-10" value="인덱스 2개 추가" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-4">
+          <mxGeometry x="60" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="630" as="sourcePoint" />
+            <mxPoint x="670" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-12" value="인덱스가 size보다 작은동안 반복" style="rounded=0;whiteSpace=wrap;html=1;shape=swimlane;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="730" y="380" width="630" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-14" value="둘이 물빨 중인가?" style="rounded=1;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-15" value="life가 남아있는가?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-16" value="life --" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-17" value="인덱스 2개 추가" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="60" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-19" value="두개리스트에 추가" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="60" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-20" value="각각 두개가 안에있는가" style="rounded=1;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="220" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-21" value="한개 리스트에 추가" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="220" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-22" value="coin이 남아있는가?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="230" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-23" value="break" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="380" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-24" value="1:1 교환에 남아있는가?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="230" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-25" value="코인 - 1,목숨 ++" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="230" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-26" value="1:2 교환에 남아있는가?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="380" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sBvYoqd-DC3ZKXknJR55-40" value="코인 - 2,목숨 ++" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="sBvYoqd-DC3ZKXknJR55-12">
+          <mxGeometry x="380" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

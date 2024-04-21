@@ -19,7 +19,7 @@ public:
                 else
                 {
                     copyMatrix[i][j] = 0;
-                }
+                                }
             }
         }
         for (int i = 0; i < rowNum; i++)

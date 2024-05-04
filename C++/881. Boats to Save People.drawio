@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2024-05-04T01:57:39.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="siCToFFYHSsxhZafqSd6" version="23.1.5" type="device">
+  <diagram name="페이지-1" id="mJYvhLLfE5og2Ke-VDfa">
+    <mxGraphModel dx="546" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LCphp6mL7q4igyLH_SFF-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LCphp6mL7q4igyLH_SFF-3" target="LCphp6mL7q4igyLH_SFF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LCphp6mL7q4igyLH_SFF-3" target="LCphp6mL7q4igyLH_SFF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-3" value="people의 size == 1?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="216" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-7" value="people을 정렬한다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="654" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-9" value="return = 1;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="448.5" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.281;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LCphp6mL7q4igyLH_SFF-12" target="LCphp6mL7q4igyLH_SFF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-12" value="start = 0&lt;br&gt;end = people.size() - 1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="609" y="360" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="541" y="490" width="714" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-16" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. start = end일때는?&lt;/p&gt;&lt;p&gt;한명만 남았다는걸 의미함&amp;nbsp;&lt;/p&gt;&lt;p&gt;start &amp;gt; end일 가능성 역시 있음&lt;/p&gt;&lt;p&gt;이때는 이제 canRideOn으로 start&lt;/p&gt;&lt;p&gt;가 start == end가 된 상황에서&amp;nbsp;&lt;br&gt;( canRideOn은 이제 탈준비&lt;/p&gt;&lt;p&gt;하는사람 ) 반복문에서 빠져서&lt;/p&gt;&lt;p&gt;end가 탑승한다는 의미로 --를하면&lt;/p&gt;&lt;p&gt;다음 에는같아짐&lt;/p&gt;&lt;p&gt;그렇기때문에 마지막에&lt;/p&gt;&lt;p&gt;start == end인지를 1개 더하면해결&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;알고보니 최대 두명임 ㅅㅂ&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-17">
+          <mxGeometry x="520" y="48.33" width="194" height="481.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-14" value="start &amp;lt; end 일동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-17">
+          <mxGeometry x="40" y="10" width="470" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-19" value="canRideOnWith = limit - people[end]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-14">
+          <mxGeometry x="10" y="40" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-20" value="" style="group" vertex="1" connectable="0" parent="LCphp6mL7q4igyLH_SFF-14">
+          <mxGeometry x="30" y="140" width="424" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-22" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 하는동안 start 가 end보다 커질 수 있음&lt;/p&gt;&lt;p&gt;end와 같이탈 사람을 찾는데 자기가 들어가면 말이안됨&lt;/p&gt;&lt;p&gt;start &amp;lt; end를 추가&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. people[start] 가 더 클수도 있다는걸 생각못함 그걸 추가해줘야함&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-20">
+          <mxGeometry x="234" y="30" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-43" value="canRIdeOnWith &amp;gt;= 0 인동안" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-20">
+          <mxGeometry x="30" y="20" width="124" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-25" value="start++&lt;br&gt;canRideOnWith - people[start]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-20">
+          <mxGeometry x="34" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-30" value="ans +&lt;br&gt;ene --" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-14">
+          <mxGeometry x="64" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-27" value="ans = 0;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="138.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-33" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="130" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-34" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-35" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-37" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-38" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-39" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-40" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LCphp6mL7q4igyLH_SFF-41" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LCphp6mL7q4igyLH_SFF-33">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

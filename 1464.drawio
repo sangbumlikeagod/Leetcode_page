@@ -1,0 +1,148 @@
+<mxfile host="Electron" modified="2024-05-12T10:09:01.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="sHJHaPVGKvVRY89xCVIE" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="lyqULX2Fo4giPklZT5m9">
+    <mxGraphModel dx="1180" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m86vbttRa3rpIuUBkTaK-3" value="&lt;h1&gt;1464. Maximum Product of Two Elements in an Array&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Given the array of integers&amp;nbsp;nums, you will choose two different indices&amp;nbsp;&lt;span class=&quot;notion-enable-hover&quot; spellcheck=&quot;false&quot; data-token-index=&quot;3&quot; style=&quot;font-family:&amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em&quot;&gt;i&lt;/span&gt;&amp;nbsp;and&amp;nbsp;&lt;span class=&quot;notion-enable-hover&quot; spellcheck=&quot;false&quot; data-token-index=&quot;5&quot; style=&quot;font-family:&amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em&quot;&gt;j&lt;/span&gt;&amp;nbsp;of that array.&amp;nbsp;&lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;7&quot; style=&quot;font-style:italic&quot;&gt;Return the maximum value of&lt;/span&gt;&amp;nbsp;&lt;span class=&quot;notion-enable-hover&quot; spellcheck=&quot;false&quot; data-token-index=&quot;9&quot; style=&quot;font-family:&amp;quot;SFMono-Regular&amp;quot;, Menlo, Consolas, &amp;quot;PT Mono&amp;quot;, &amp;quot;Liberation Mono&amp;quot;, Courier, monospace;line-height:normal;background:rgba(135,131,120,.15);color:#EB5757;border-radius:4px;font-size:85%;padding:0.2em 0.4em&quot;&gt;(nums[i]-1)*(nums[j]-1)&lt;/span&gt;.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="30" width="700" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-4" target="m86vbttRa3rpIuUBkTaK-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m86vbttRa3rpIuUBkTaK-4" target="m86vbttRa3rpIuUBkTaK-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-4" target="m86vbttRa3rpIuUBkTaK-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="330" />
+              <mxPoint x="20" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-4" value="인덱스가 nums.size()보다 작을때까지 반복" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="46.25" y="290" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-11" value="input" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="140" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-12" value="int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;max1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m86vbttRa3rpIuUBkTaK-11" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-13" value="int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;max2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m86vbttRa3rpIuUBkTaK-11" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-14" value="int&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;인덱스&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m86vbttRa3rpIuUBkTaK-11" vertex="1">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m86vbttRa3rpIuUBkTaK-18" target="m86vbttRa3rpIuUBkTaK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-33" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m86vbttRa3rpIuUBkTaK-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m86vbttRa3rpIuUBkTaK-18" target="m86vbttRa3rpIuUBkTaK-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-34" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m86vbttRa3rpIuUBkTaK-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.325" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-18" value="max1이 있는가?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="62.5" y="390" width="187.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-19" target="m86vbttRa3rpIuUBkTaK-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-19" value="idx++" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-27" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-20" target="m86vbttRa3rpIuUBkTaK-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-32" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-20" target="m86vbttRa3rpIuUBkTaK-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-20" value="nums[idx] 가 max1보다 큰가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="62.5" y="540" width="187.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-22" target="m86vbttRa3rpIuUBkTaK-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-22" value="max1 = nums[idx]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-25" target="m86vbttRa3rpIuUBkTaK-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-25" value="max1 = nums[idx]&lt;br&gt;nums[idx] = max1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="96.25" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-44" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-26" target="m86vbttRa3rpIuUBkTaK-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m86vbttRa3rpIuUBkTaK-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="510" />
+              <mxPoint x="601" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-46" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m86vbttRa3rpIuUBkTaK-45" vertex="1" connectable="0">
+          <mxGeometry x="-0.4025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-26" value="nums[idx] 가 max2 보다 큰가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="296.25" y="540" width="187.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m86vbttRa3rpIuUBkTaK-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-43" value="max2 = nums[idx]&lt;br&gt;nums[idx] = max2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-52" value="return (max1 - 1) * (max2 - 1)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="890" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-56" target="m86vbttRa3rpIuUBkTaK-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-61" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m86vbttRa3rpIuUBkTaK-57" vertex="1" connectable="0">
+          <mxGeometry x="0.3301" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-59" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-56" target="m86vbttRa3rpIuUBkTaK-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-56" value="max2가 있는가?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="296.25" y="670" width="187.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m86vbttRa3rpIuUBkTaK-58" target="m86vbttRa3rpIuUBkTaK-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="720" />
+              <mxPoint x="690" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m86vbttRa3rpIuUBkTaK-58" value="max2 = nums[idx]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

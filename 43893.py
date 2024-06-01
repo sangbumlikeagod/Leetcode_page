@@ -26,12 +26,6 @@ class Page:
         return total
 
 
-
-    
-
-
-
-
 def solution(word, pages):
     answer = 0
     for page in pages:

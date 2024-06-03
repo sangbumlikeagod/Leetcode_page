@@ -1,0 +1,25 @@
+<mxfile host="Electron" modified="2024-05-28T02:10:58.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="n4vMAmKhEKfDSWNaedE5" version="23.1.5" type="device">
+  <diagram name="페이지-1" id="JYesAf_VkUT02DAHZTTd">
+    <mxGraphModel dx="598" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0-gXEeqK8iJpIk-d55VA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-gXEeqK8iJpIk-d55VA-1" target="0-gXEeqK8iJpIk-d55VA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-gXEeqK8iJpIk-d55VA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0-gXEeqK8iJpIk-d55VA-1" target="0-gXEeqK8iJpIk-d55VA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0-gXEeqK8iJpIk-d55VA-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="505" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-gXEeqK8iJpIk-d55VA-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-gXEeqK8iJpIk-d55VA-3" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="630" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

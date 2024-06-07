@@ -1,0 +1,150 @@
+<mxfile host="Electron" modified="2024-06-07T09:09:35.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="rMWdHQVp6_061yCq-y6Y" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="lZb2lp_lmvu43ivSFdPN">
+    <mxGraphModel dx="850" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-3" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-5" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-6" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-7" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-9" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-10" value="Dictionary 정렬" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-11" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-10">
+          <mxGeometry x="330" y="35" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-15" value="sort(dictionary.begin(), dictionary.end());" style="whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-10">
+          <mxGeometry x="20" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-16" value="sentence 문자열을 배열로 정렬" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="640" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-19" value="string word = &quot;&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-16">
+          <mxGeometry x="20" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-21" value="sentences의 모든 c에 대해서 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-16">
+          <mxGeometry x="40" y="129.99999999999977" width="540" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-22" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 마지막 단어에 대해서 더할 수 없음 후에 추가해야함&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-21">
+          <mxGeometry x="330" y="35" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-23" value="sentences.push_back(word)&lt;br&gt;word = &quot;&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-21">
+          <mxGeometry x="40" y="230" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-21" source="Dc6vVJ2zcrRzC4p6-9ed-24" target="Dc6vVJ2zcrRzC4p6-9ed-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-28" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-21" source="Dc6vVJ2zcrRzC4p6-9ed-24" target="Dc6vVJ2zcrRzC4p6-9ed-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-24" value="c 가 &#39; &#39; 인가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-21">
+          <mxGeometry x="45" y="105" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-25" value="word += c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-21">
+          <mxGeometry x="210" y="115" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-30" value="sentences.push_back(word)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-16">
+          <mxGeometry x="210" y="519.9999999999998" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-20" value="vector&amp;lt;string&amp;gt; sentences&lt;br&gt;vector&amp;lt;int&amp;gt; sentencesOV (1000, 0)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-33" value="모든 Dictionary 안의 root에 대해서 앞에서부터 차례로 모든 sentence를 찾음" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1050" width="880" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-35" value="모든 dictionary 요소 root 들에 대해 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-33">
+          <mxGeometry x="25" y="90" width="855" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-36" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-35">
+          <mxGeometry x="515" y="29" width="140" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-38" value="idx =&amp;nbsp; 0 부터&amp;nbsp; idx &amp;lt; sentences.size() 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-35">
+          <mxGeometry x="40" y="140" width="815" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-39" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="415" y="40" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38" source="Dc6vVJ2zcrRzC4p6-9ed-40" target="Dc6vVJ2zcrRzC4p6-9ed-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-40" value="sentencesOV[idx] 가 1인가? 또는&amp;nbsp;&lt;br&gt;root.length() &amp;lt; sentence[i].length() 인가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="50" y="90" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-41" value="continue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="100" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-43" value="int c = 0 부터 c &amp;lt; root.size() 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="275" y="170" width="520" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-44" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. root size가 sentence&lt;br&gt;보다 클 수 있음 앞에서 처리&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-43">
+          <mxGeometry x="280" y="35" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-48" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-43" source="Dc6vVJ2zcrRzC4p6-9ed-46" target="Dc6vVJ2zcrRzC4p6-9ed-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="160" />
+              <mxPoint x="150" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-53" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-43" source="Dc6vVJ2zcrRzC4p6-9ed-46" target="Dc6vVJ2zcrRzC4p6-9ed-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-46" value="sentences[idx][c] != root[idx] 인가?" style="whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-43">
+          <mxGeometry x="10" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-47" value="pass" style="whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-43">
+          <mxGeometry x="56" y="222.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-52" value="isDeriviated = false&lt;br&gt;break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-43">
+          <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.148;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38" source="Dc6vVJ2zcrRzC4p6-9ed-40" target="Dc6vVJ2zcrRzC4p6-9ed-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-54" value="isDeriviated = true" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="245" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38" source="Dc6vVJ2zcrRzC4p6-9ed-55" target="Dc6vVJ2zcrRzC4p6-9ed-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-55" value="isDeriviated 가 true인가?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="327.5" y="474" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-56" value="continue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="557.5" y="484" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-57" value="sentences[i] = root&lt;br&gt;sentencesOV[i] = 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38">
+          <mxGeometry x="365" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dc6vVJ2zcrRzC4p6-9ed-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Dc6vVJ2zcrRzC4p6-9ed-38" source="Dc6vVJ2zcrRzC4p6-9ed-55" target="Dc6vVJ2zcrRzC4p6-9ed-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

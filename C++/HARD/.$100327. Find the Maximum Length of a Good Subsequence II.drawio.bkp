@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2024-06-10T08:40:32.130Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qDu5D7SMu-qq-vuwc1MG" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="HlZ_7oW4l9ilXRNhAw0l">
+    <mxGraphModel dx="850" dy="1551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-40" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-41" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-42" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-44" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-45" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-46" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-47" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-48" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-40">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-49" value="unordered_map&amp;lt;int, int&amp;gt; indexNum&lt;br&gt;int dp[5001][51]&lt;br&gt;int maxLength[51]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-52" value="기능&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="155" width="480" height="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-53" value="int index = 0 부터 nums.size() 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-52">
+          <mxGeometry x="25" y="95" width="430" height="935" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-54" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-56" value="int kIndex = k 부터 0 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="20" y="290" width="410" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-57" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 지난번 MaxLength가 뭘로 끝났는지는 전혀 상관없다 어차피 nonK와 K에서 모두 반영되어서 같은 값으로 끝날거다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-56">
+          <mxGeometry x="12" y="30" width="386" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-63" value="dp[index][kIndex] = max(nonKEnd + 1, KEnd + 1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-56">
+          <mxGeometry x="26" y="360" width="324" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-66" value="int nonKEnd =&amp;nbsp;&lt;br&gt;j 가 0이 아닐시 :&amp;nbsp; maxLength[j - 1]&amp;nbsp;&lt;br&gt;j가 0일시 : 0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-56">
+          <mxGeometry x="35" y="150" width="295" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-67" value="int KEnd =&amp;nbsp;&lt;br&gt;indexPast 가 index 일시 : 0&lt;br&gt;아닐시 :&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-56">
+          <mxGeometry x="35" y="235" width="295" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-68" value="maxLength[kIndex] = max(maxLength[kIndex], dp[index][kIndex])" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-56">
+          <mxGeometry x="26" y="450" width="284" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-60" value="int indexPast" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="125" y="60" width="135" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-58" value="내 값에 대한 이전 인덱스가 있는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="115" y="132.5" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-61" value="indexPast = indexNum[nums[index]]&amp;nbsp;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="275" y="145" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-62" value="indexPast = index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="105" y="220" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nn7_blDNP3-ik5RgzfIx-64" value="indexNum[nums[index]] = index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nn7_blDNP3-ik5RgzfIx-53">
+          <mxGeometry x="45" y="859" width="205" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

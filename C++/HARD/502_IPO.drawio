@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-06-15T14:50:56.555Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="XO2y9BLzkz9YB24vK0vP" version="22.1.16" type="device">
+<mxfile host="Electron" modified="2024-06-15T15:01:21.156Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8PHwEGpwHIRb9mtTugDz" version="22.1.16" type="device">
   <diagram name="페이지-1" id="s0BtBL8E3uyjwX4xEawH">
-    <mxGraphModel dx="1277" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1581" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,10 +38,10 @@
           <mxGeometry x="10" y="45" width="440" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-19" value="정렬된 procap을 돌며 capital이 허용될 때마다 Benefit 구하기&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="500" width="730" height="870" as="geometry" />
+          <mxGeometry x="60" y="500" width="730" height="810" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-25" value="int index = 0; index &amp;lt; procap.size() 인동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-19">
-          <mxGeometry x="20" y="85" width="700" height="455" as="geometry" />
+          <mxGeometry x="20" y="50" width="700" height="455" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-26" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. Index가 끝까지 다 돌았을 경우 즉 모든 값들이 취득 가능한경우 확인해줘야함&lt;/p&gt;&lt;p&gt;2. 중간에 k가 다되는경우 체크&lt;/p&gt;&lt;p&gt;3. k는 남아있으나 maxProfitStore가 비었을 경우 체크&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-25">
           <mxGeometry x="500" y="35" width="190" height="165" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-35" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 한번 소모하고 지우고, K를 지워줘야함&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-34">
           <mxGeometry x="330" y="55" width="110" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3kNEcLWgSDnGltUGQQ0z-36" value="w +=" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-34">
+        <mxCell id="3kNEcLWgSDnGltUGQQ0z-36" value="w += maxProfitStore.top();&lt;br&gt;maxProfitStore.pop();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-34">
           <mxGeometry x="50" y="55" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-37" value="k--;" style="whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-34">
@@ -68,10 +68,10 @@
           <mxGeometry x="290" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-41" value="k가 0보다 크거나 maxProfitStore가 비어있지 않은 동안 반복" style="swimlane;whiteSpace=wrap;html=1;startSize=45;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-19">
-          <mxGeometry x="49" y="560" width="450" height="290" as="geometry" />
+          <mxGeometry x="20" y="510" width="700" height="220" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-42" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 한번 소모하고 지우고, K를 지워줘야함&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-41">
-          <mxGeometry x="330" y="55" width="110" height="120" as="geometry" />
+          <mxGeometry x="570" y="55" width="110" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-43" value="w += maxProfitStore.top();&lt;br&gt;maxProfitStore.pop();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-41">
           <mxGeometry x="50" y="55" width="200" height="60" as="geometry" />
@@ -79,20 +79,17 @@
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-44" value="k--;" style="whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-41">
           <mxGeometry x="50" y="135" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3kNEcLWgSDnGltUGQQ0z-48" value="K가 0이거나&amp;nbsp; maxProfitStore가 비어있는가?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-41">
-          <mxGeometry x="65" y="200" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3kNEcLWgSDnGltUGQQ0z-49" value="return w - startCapital" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-41">
-          <mxGeometry x="265" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="3kNEcLWgSDnGltUGQQ0z-50" value="return w - startCapital" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3kNEcLWgSDnGltUGQQ0z-19">
+          <mxGeometry x="70" y="740" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-20" value="priority_queue&amp;lt;int&amp;gt;&amp;nbsp;&amp;nbsp;maxProfitStore" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="30" width="280" height="80" as="geometry" />
+          <mxGeometry x="82.5" y="30" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-24" value="vector&amp;lt;pair&amp;lt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; color: rgb(86, 156, 214);&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; color: rgb(86, 156, 214);&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px;&quot;&gt;&amp;gt;&amp;gt; procap&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="130" width="285" height="80" as="geometry" />
+          <mxGeometry x="80" y="100" width="285" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3kNEcLWgSDnGltUGQQ0z-45" value="int startCapital = w;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="220" width="200" height="70" as="geometry" />
+          <mxGeometry x="80" y="170" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

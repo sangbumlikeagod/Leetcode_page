@@ -1,0 +1,73 @@
+<mxfile host="Electron" modified="2024-06-17T03:20:04.341Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ocsIvQDcuKg34MiMbmLh" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="fAOiz-F4Na26TyNflQw8">
+    <mxGraphModel dx="1180" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v1zMVop2O1hYXmigqEPX-9" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-10" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-11" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-13" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-14" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-15" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-16" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-17" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-9">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-18" value="다음 요구되는 구간합&amp;nbsp;&lt;br&gt;long long prefixSum = &lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-21" value="결과 값 int ans = 0&lt;br&gt;nums배열의 값 int index = 0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-22" value="인덱스가 총 사이즈 값보다 작고,&amp;nbsp;prefixSum이 리턴해야하는 n보다 작거나 같은동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="470" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-23" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 인덱스가 끝까지 가도 값을 못채웠을 경우가 있음, 예외처리 해줘야함&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-22">
+          <mxGeometry x="310" y="30" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-24" value="다음 값 Int next = nums[index]" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-22">
+          <mxGeometry x="30" y="50" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-25" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(40, 40, 40); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; line-height: 20px;&quot;&gt;next &amp;lt;= prefixSum&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-22">
+          <mxGeometry x="30" y="160" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-26" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(40, 40, 40); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; line-height: 20px;&quot;&gt;prefixSum += next&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(40, 40, 40); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; line-height: 20px;&quot;&gt;index++&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-22">
+          <mxGeometry x="60" y="255" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-27" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(40, 40, 40); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; line-height: 20px;&quot;&gt;&lt;div&gt;prefixSum *= 2;&lt;/div&gt;&lt;div&gt;                ans++;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-22">
+          <mxGeometry x="304" y="170" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-28" value="prefixSum이 n보다 작거나 같은동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="680" width="470" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-29" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-28">
+          <mxGeometry x="300" y="35" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-30" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(40, 40, 40); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 13px; line-height: 20px;&quot;&gt;&lt;div&gt;prefixSum *= 2;&lt;/div&gt;&lt;div&gt;                ans++;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="v1zMVop2O1hYXmigqEPX-28">
+          <mxGeometry x="70" y="70" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1zMVop2O1hYXmigqEPX-31" value="return ans;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

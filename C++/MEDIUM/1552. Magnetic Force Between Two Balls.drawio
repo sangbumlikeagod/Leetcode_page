@@ -1,0 +1,100 @@
+<mxfile host="Electron" modified="2024-06-20T08:19:44.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="AtvOn2h1Ux3M-_zUpND9" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="0Y43-pkDfgewN0znj-FB">
+    <mxGraphModel dx="674" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i0umbzkvszIkbdRqxgUs-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="30" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-3" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-5" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-6" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-7" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-9" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-13" value="주어진 배열에서 o라는 값을 받고 o만큼 띄어쓰기 해서 칸들 배치하는게 가능하는지 확인하는 코드" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="830" width="730" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-21" value="int startIndex 0&lt;br&gt;int distances = 0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-13">
+          <mxGeometry x="60" y="60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-22" value="int ramains = m - 1&lt;br&gt;int limit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-13">
+          <mxGeometry x="214" y="60" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-24" value="remains 가 양수고 startIndex가 주어진 배열크기 - 1 보다 작을 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-13">
+          <mxGeometry x="40" y="140" width="600" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-29" value="distances + position [startIndex + 1] -&amp;nbsp; position[startIndex] 이 l보다 큰가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-24">
+          <mxGeometry x="30" y="120" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-31" value="remains--&lt;br&gt;distances = 0&lt;br&gt;minnimun = min(minnimun distances)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-24">
+          <mxGeometry x="30" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-25" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-24">
+          <mxGeometry x="20" y="40" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-34" value="startIndex++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-24">
+          <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-32" value="distances += position [startIndex + 1] -&amp;nbsp; position[startIndex]&amp;nbsp;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-24">
+          <mxGeometry x="266" y="130" width="324" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-28" value="Return remains ? -1 : minimum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-13">
+          <mxGeometry x="80" y="490" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-38" value="int minnimun = 1e9" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-13">
+          <mxGeometry x="370" y="60" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-14" value="int minAns = 1;&lt;br&gt;int maxAns = 1e9;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-16" value="minAns &amp;lt; maxAns 일동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="440" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-17" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-16">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-18" value="int midAns = (minAns + maxAns) / 2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-16">
+          <mxGeometry x="80.5" y="140" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-20" value="최소 배치간격 midAns로 가능한지 확인" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-16">
+          <mxGeometry x="55.5" y="220" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-35" value="가능한가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-16">
+          <mxGeometry x="123" y="295" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-36" value="beforeMax = 결과값 + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-16">
+          <mxGeometry x="100.5" y="398" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-37" value="maxAns = midAns" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="i0umbzkvszIkbdRqxgUs-16">
+          <mxGeometry x="264.5" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-19" value="int beforeMax = -1" style="rounded=0;whiteSpace=wrap;html=1;shape=ellipse;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="220" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0umbzkvszIkbdRqxgUs-30" value="sort(position.begin(), position.end())" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

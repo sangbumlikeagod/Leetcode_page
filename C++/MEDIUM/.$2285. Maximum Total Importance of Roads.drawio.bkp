@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2024-06-28T07:21:03.442Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RkfwhhVTF4ZynSA92cCw" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="YhcR-DUTNVNcb-SV93kZ">
+    <mxGraphModel dx="1026" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-2" value="" style="whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=6;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-3" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-5" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-6" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-7" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-9" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-10" value="vector&amp;lt;int&amp;gt; counts" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="60" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-11" value="int i = 0 부터 n 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="410" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-12" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-11">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-14" value="count[roads[i][0]] ++;&lt;br&gt;count[roads[i][1]] ++;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-11">
+          <mxGeometry x="78" y="150" width="250" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-15" value="sort(roads.begin(), roads.end())" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="710" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-16" value="road = n 부터 1까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="780" width="410" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-17" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-16">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-18" value="ans += road * count[value - 1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Sejse-tOayC-5ekQ4_8I-16">
+          <mxGeometry x="100" y="150" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sejse-tOayC-5ekQ4_8I-19" value="return ans" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="1070" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

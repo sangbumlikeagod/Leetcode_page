@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2024-06-25T03:28:33.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="S3HFU37hPIgFzvumenjd" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="gcbkVpKH-8CBw0Il_cPt">
+    <mxGraphModel dx="1573" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-3" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-5" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-6" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-7" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-9" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-10" value="int Search(int Got, TreeNode* node )" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="400" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-12" value="왼쪽에 더해야할 수를 추가해 전달" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="57.5" y="310" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-14" value="자기부모에게 리턴(왼쪽 나, 오른쪽 합해야함)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="20" y="450" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-17" value="int biggerThanMyself = node -&amp;gt; right ? search(got, node -&amp;gt; right) : got" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="57.5" y="100" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-18" value="int biggerThanParent = Search(node -&amp;gt; val,&amp;nbsp; node -&amp;gt; left)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="57.5" y="350" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-19" value="return bTP" style="whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="57.5" y="490" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-20" value="node -&amp;gt; val += biggerThanMyself" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="57.5" y="210" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-13" value="오른쪽에서 더해야할 수를 가져옴" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="PjCrLdtpQQ64lzBFMV-2-10">
+          <mxGeometry x="57.5" y="50" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-21" value="search(0, root)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PjCrLdtpQQ64lzBFMV-2-23" value="return root" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

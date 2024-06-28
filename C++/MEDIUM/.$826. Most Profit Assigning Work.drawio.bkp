@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2024-06-18T05:02:08.800Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="yeUfXp74zxIf1FSM7JI1" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="1KPr0GSVXdKmgV4hlnYd">
+    <mxGraphModel dx="656" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="20" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-2" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="24" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-3" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-5" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-6" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-7" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-9" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-11" value="Vector&amp;lt;pair&amp;lt;int, int&amp;gt;&amp;gt; profitDifficulty = {}" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-12" value="profitDifficulty 채우기&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="260" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-13" value="profitDifficulty 정렬,&lt;br&gt;workers 정렬" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-14" value="int pdIndex = 0" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-15" value="int maxValue = 0;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-16" value="int ans = 0;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-17" value="workerint i = 0 부터&amp;nbsp;worker.size()&amp;nbsp; 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="540" width="460" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-18" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. pdIndex가 끝에 다다랐으면 옆으로 가는건 멈추되 계산은 계속 해줘야하니까두가지를 분리&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-17">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-21" value="int pdIndex 가 profit.size()&amp;nbsp; 보다 작고 worker[i] 가 profitDifficulty[pdIndex]. first 보다 작거나 같을 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-17">
+          <mxGeometry x="30" y="140" width="410" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-22" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-21">
+          <mxGeometry x="7" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-24" value="ans = max(maxValue, profitDifficulty[pdIndex].first)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-21">
+          <mxGeometry x="35" y="150" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-26" value="pdIndex ++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-21">
+          <mxGeometry x="35" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ze7GV4se9fQYjS9JVHVs-20" value="ans = += masValue,&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ze7GV4se9fQYjS9JVHVs-17">
+          <mxGeometry x="50" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

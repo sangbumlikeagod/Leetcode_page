@@ -1,0 +1,97 @@
+<mxfile host="Electron" modified="2024-07-05T07:45:15.831Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="g1EZ2MjEAM6H34LZbJE-" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="gMVFmzeLt1JNr3CZEQuN">
+    <mxGraphModel dx="1124" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-2" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-4" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-5" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-6" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-8" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-9" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-1">
+          <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-10" value="head가 nullptr이 아닌동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="41" y="210" width="460" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-11" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-10">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9pRXUttTpRDvOd-fpQAW-10" source="9pRXUttTpRDvOd-fpQAW-16" target="9pRXUttTpRDvOd-fpQAW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-16" value="value가 -1 이 아니고 head -&amp;gt; next 일경우" style="rounded=0;whiteSpace=wrap;html=1;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-10">
+          <mxGeometry x="26.97" y="120" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-18" value="value = node -&amp;gt; value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-10">
+          <mxGeometry x="302" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-21" value="" style="group" vertex="1" connectable="0" parent="9pRXUttTpRDvOd-fpQAW-10">
+          <mxGeometry x="60" y="240" width="400" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-22" value="value와 node -&amp;gt; next&amp;nbsp; -&amp;gt; val 보다&amp;nbsp;&lt;br&gt;Head -&amp;gt; value가 크거나&amp;nbsp;&lt;br&gt;그 둘보다 모두 작은가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-21">
+          <mxGeometry x="-24.16" y="5" width="212.26" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-23" value="minPath = min(index - lastCritical,&amp;nbsp; index)&lt;br&gt;firstCritical 가 -1이라면 갱신&lt;br&gt;lastCritical 갱신" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-21">
+          <mxGeometry x="-39.07" y="150" width="242.07" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-24" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9pRXUttTpRDvOd-fpQAW-21" source="9pRXUttTpRDvOd-fpQAW-22" target="9pRXUttTpRDvOd-fpQAW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-25" value="value = node -&amp;gt; value" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-21">
+          <mxGeometry x="240.00152569531875" y="-2.5" width="128.1904543893785" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-26" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9pRXUttTpRDvOd-fpQAW-21" source="9pRXUttTpRDvOd-fpQAW-22" target="9pRXUttTpRDvOd-fpQAW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9pRXUttTpRDvOd-fpQAW-10" source="9pRXUttTpRDvOd-fpQAW-16" target="9pRXUttTpRDvOd-fpQAW-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-28" value="index++&lt;br&gt;head = head -&amp;gt; next" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-10">
+          <mxGeometry x="160" y="520" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-13" value="int 가장 먼저 발견된 node의 index = -1&lt;br&gt;int 가장 나중에 발견된 node의 index =&amp;nbsp; -1&lt;br&gt;직전노드의 값을 나타내기 위한 value = -1&lt;br&gt;int 최소값 minPath = 100001&lt;br&gt;int 현재 index = 0&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="870" width="500" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-30" value="firstCritical 이 -1이거나&amp;nbsp;&lt;br&gt;firstCritical이 lastCritical과 같은가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-29">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-31" value="Return {-1, -1}" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-29">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-32" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9pRXUttTpRDvOd-fpQAW-29" source="9pRXUttTpRDvOd-fpQAW-30" target="9pRXUttTpRDvOd-fpQAW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-33" value="Return({minPath, lastCritical - firstCritical)}" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="9pRXUttTpRDvOd-fpQAW-29">
+          <mxGeometry x="236.85" width="263.15" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="9pRXUttTpRDvOd-fpQAW-34" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9pRXUttTpRDvOd-fpQAW-29" source="9pRXUttTpRDvOd-fpQAW-30" target="9pRXUttTpRDvOd-fpQAW-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

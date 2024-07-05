@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-07-03T15:46:07.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="CpW-rryto6O7Dbv5JBRm" version="22.1.16" type="device">
+<mxfile host="Electron" modified="2024-07-03T15:56:27.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="1vpVrFCA2JEJwcF4IwRt" version="22.1.16" type="device">
   <diagram name="페이지-1" id="ikhktDuGaXGTD9r98he-">
-    <mxGraphModel dx="1006" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-11" value="sort(nums.begin(), nums.end())" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="320" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-12" value="int left[4] = {0}&lt;br&gt;int right[4] = {0}&lt;br&gt;int leftPointer = 0;&lt;br&gt;int rightPointer = num.size() - 1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+        <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-12" value="int left[4] = {0}&lt;br&gt;int right[4] = {0}&lt;br&gt;int leftPointer = 0;&lt;br&gt;int rightPointer = num.size() - 1&lt;br&gt;int initial=&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
           <mxGeometry x="60" y="410" width="330" height="150" as="geometry" />
         </mxCell>
         <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-13" value="int i = 1 부터 4 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -43,7 +43,7 @@
         <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-14" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="gxmNPWTjQ_dnCd_yUPLZ-13">
           <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-21" value="left[i] = left[i - 1] + nums[leftPointer + 1] - nums[leftPointer]&lt;br&gt;right[4 - i] = right[5 -&amp;nbsp; i] + nums[rightPointer] - nums[rightPointer - 1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gxmNPWTjQ_dnCd_yUPLZ-13">
+        <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-21" value="left[i] = left[i - 1] + nums[leftPointer + 1] - nums[leftPointer]&lt;br&gt;right[3 - i] = right[4 -&amp;nbsp; i] + nums[rightPointer] - nums[rightPointer - 1]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gxmNPWTjQ_dnCd_yUPLZ-13">
           <mxGeometry x="30" y="140" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-15" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -67,7 +67,7 @@
         <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-22" value="return min(left[0] + right[3], left[1] + right[2], left[2] + right[1], left[3] + right[0])&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="960" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-23" value="return min(left[0] + right[3], left[1] + right[2], left[2] + right[1], left[3] + right[0])&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gxmNPWTjQ_dnCd_yUPLZ-23" value="return initial -&amp;nbsp; max(left[0] + right[3], left[1] + right[2], left[2] + right[1], left[3] + right[0])" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="960" width="510" height="60" as="geometry" />
         </mxCell>
       </root>

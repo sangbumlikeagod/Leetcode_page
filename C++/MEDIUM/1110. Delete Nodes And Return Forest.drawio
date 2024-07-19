@@ -1,0 +1,147 @@
+<mxfile host="Electron" modified="2024-07-17T07:43:08.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="gN2CIiK_ArZE0QYz70bN" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="mXwkBzdvC1ybv7vDjo15">
+    <mxGraphModel dx="1242" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-2" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-4" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-5" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-6" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-8" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-9" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-1">
+          <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-10" value="본인과 자식의 분리여부를 파악하는함수 seperate(bool amIDeleted, TreeNode* node, vector&amp;lt;int&amp;gt;&amp;amp; table)" style="swimlane;whiteSpace=wrap;html=1;startSize=60;" vertex="1" parent="1">
+          <mxGeometry x="64" y="430" width="936" height="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-31" value="b" style="group" vertex="1" connectable="0" parent="LBn4tSVSCYStC8-wmlXh-10">
+          <mxGeometry x="76" y="670" width="780" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-32" value="본인의 오른쪽 자식이 있나?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-31">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-31" source="LBn4tSVSCYStC8-wmlXh-32" target="LBn4tSVSCYStC8-wmlXh-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.90000000000009" y="193.33333333333326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-34" value="pass" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-31">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-35" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-31" source="LBn4tSVSCYStC8-wmlXh-32" target="LBn4tSVSCYStC8-wmlXh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-36" value="" style="group" vertex="1" connectable="0" parent="LBn4tSVSCYStC8-wmlXh-31">
+          <mxGeometry y="180" width="780" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-37" value="오른쪽자식이 삭제해야할 놈인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-36">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-38" value="seperate(true, node -&amp;gt; right, table)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-36">
+          <mxGeometry x="-29.14" y="180" width="220" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-39" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-36" source="LBn4tSVSCYStC8-wmlXh-37" target="LBn4tSVSCYStC8-wmlXh-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-40" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-36" source="LBn4tSVSCYStC8-wmlXh-37" target="LBn4tSVSCYStC8-wmlXh-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0025423728814" y="48.33333333333326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-41" value="" style="group" vertex="1" connectable="0" parent="LBn4tSVSCYStC8-wmlXh-36">
+          <mxGeometry x="330" width="450" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-42" value="amIDeleted" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-41">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-43" value="answer.push_back(node -&amp;gt; left)&lt;br&gt;seperate(false, node -&amp;gt; right, table)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-41">
+          <mxGeometry x="-24.14" y="180" width="210" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-44" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-41" source="LBn4tSVSCYStC8-wmlXh-42" target="LBn4tSVSCYStC8-wmlXh-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-45" value="seperate(false, node -&amp;gt; right, table)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-41">
+          <mxGeometry x="270" y="5" width="150" height="86.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-46" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-41" source="LBn4tSVSCYStC8-wmlXh-42" target="LBn4tSVSCYStC8-wmlXh-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="620" width="780" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-12" value="본인의 왼쪽 자식이 있나?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-11">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.501;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-11" source="LBn4tSVSCYStC8-wmlXh-12" target="LBn4tSVSCYStC8-wmlXh-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.90000000000009" y="193.33333333333326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-15" value="pass" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-11">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-16" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-11" source="LBn4tSVSCYStC8-wmlXh-12" target="LBn4tSVSCYStC8-wmlXh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-17" value="" style="group" vertex="1" connectable="0" parent="LBn4tSVSCYStC8-wmlXh-11">
+          <mxGeometry y="180" width="780" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-18" value="왼쪽자식이 삭제해야할 놈인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-17">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-19" value="seperate(true, node -&amp;gt; left, table)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-17">
+          <mxGeometry x="-29.14" y="180" width="220" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-20" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-17" source="LBn4tSVSCYStC8-wmlXh-18" target="LBn4tSVSCYStC8-wmlXh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-22" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-17" source="LBn4tSVSCYStC8-wmlXh-18" target="LBn4tSVSCYStC8-wmlXh-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0025423728814" y="48.33333333333326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-25" value="" style="group" vertex="1" connectable="0" parent="LBn4tSVSCYStC8-wmlXh-17">
+          <mxGeometry x="330" width="450" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-26" value="amIDeleted" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-25">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-27" value="answer.push_back(node -&amp;gt; left)&lt;br&gt;seperate(false, node -&amp;gt; left, table)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-25">
+          <mxGeometry x="-24.14" y="180" width="210" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-28" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-25" source="LBn4tSVSCYStC8-wmlXh-26" target="LBn4tSVSCYStC8-wmlXh-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-29" value="seperate(false, node -&amp;gt; left, table)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LBn4tSVSCYStC8-wmlXh-25">
+          <mxGeometry x="270" y="5" width="150" height="86.67" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-30" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LBn4tSVSCYStC8-wmlXh-25" source="LBn4tSVSCYStC8-wmlXh-26" target="LBn4tSVSCYStC8-wmlXh-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LBn4tSVSCYStC8-wmlXh-47" value="vector&amp;lt;TreeNode*&amp;gt; answer&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="130" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

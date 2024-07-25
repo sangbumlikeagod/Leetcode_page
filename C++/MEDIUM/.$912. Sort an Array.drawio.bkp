@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-07-25T14:22:50.830Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="Ya7-WuDi5gz1PLXY18HN" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="_l5jssnJXY5AQyP5Atrb">
+    <mxGraphModel dx="1186" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-2" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-4" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-5" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-6" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-8" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-9" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-1">
+          <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-10" value="카운팅 소트" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="500" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-12" value="int num : nums" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-10">
+          <mxGeometry x="20" y="60" width="460" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-13" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-12">
+          <mxGeometry x="10" y="30" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-14" value="countNumP50000[num + 50000]++;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-12">
+          <mxGeometry x="10" y="140" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-15" value="minNum = minNum &amp;gt;&amp;nbsp; num ? num : minNum;&lt;br&gt;maxNum = maxNum &amp;lt;&amp;nbsp; num ? num : maxNum;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-12">
+          <mxGeometry x="10" y="210" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-16" value="int i = minNum 부터 maxNum 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-10">
+          <mxGeometry x="20" y="370" width="460" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-17" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-16">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-20" value="int j = 0 부터 countNumP50000[i] 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-16">
+          <mxGeometry x="55" y="150" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-21" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-20">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-22" value="answer.push_back(i - 50000)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4hV88wfmnfqBOtw-tdRx-20">
+          <mxGeometry x="35" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4hV88wfmnfqBOtw-tdRx-11" value="vector&amp;lt;int&amp;gt;&amp;nbsp; countNumP50000 (100001, 0);&amp;nbsp;&lt;br&gt;&lt;br&gt;vector&amp;lt;int&amp;gt; answers {};&lt;br&gt;&lt;br&gt;쓸데없는 오버헤드 방지를 위한 최소, 최대 변수&lt;br&gt;int minNum;&lt;br&gt;int maxNum;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="340" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

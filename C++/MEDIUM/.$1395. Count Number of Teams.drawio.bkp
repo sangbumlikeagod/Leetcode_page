@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2024-07-29T13:57:50.889Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mJB-HpFbpaMpm2fd61fj" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="jGXqSnOzBgXEeUfqGWCp">
+    <mxGraphModel dx="1660" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-3" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-5" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-6" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-7" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-9" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-10" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-2">
+          <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-11" value="vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; greaterThanBoth (n, vector&amp;lt;int&amp;gt; {0, 0})&amp;nbsp;&lt;br&gt;&lt;br&gt;map&amp;lt;int, int&amp;gt; leftTree;&lt;br&gt;map&amp;lt;int, int&amp;gt; rightTree;&lt;br&gt;&lt;br&gt;int answer = 0;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-13" value="트리에서 옮기고 각각 이진탐색" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="396" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-12" value="int leftBigger = leftTree.end() -&amp;nbsp; &amp;nbsp;leftTree.upperBound[rating[i]);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-13">
+          <mxGeometry x="16.5" y="170" width="363" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-17" value="int rightBigger = rightTree.end() -&amp;nbsp; &amp;nbsp;rightTree.upperBound[rating[i]);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-13">
+          <mxGeometry x="16.5" y="260" width="363" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-18" value="answer += leftBigger * ( n - (i + 1) - rightBigger)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-13">
+          <mxGeometry x="16.5" y="370" width="353.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-19" value="leftTree.push(ratings[i])&lt;br&gt;rightTree.erase(ratings[i](" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-13">
+          <mxGeometry x="30" y="60" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-25" value="answer += rightBigger * ( i - leftBigger )&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-13">
+          <mxGeometry x="16.5" y="450" width="353.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-15" value="모든 rating 트리화" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="54" y="340" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ILIZZcfDt6ooHEabCgoL-16" value="생략" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ILIZZcfDt6ooHEabCgoL-15">
+          <mxGeometry x="105" y="70" width="150" height="75" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

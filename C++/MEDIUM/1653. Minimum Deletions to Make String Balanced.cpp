@@ -1,8 +1,10 @@
-class Solution {
+class Solution
+{
 public:
-    int minimumDeletions(string s) {
-        vector<int> shouldDb (s.length(), 0);
-        vector<int> shouldDa (s.length(), 0);
+    int minimumDeletions(string s)
+    {
+        vector<int> shouldDb(s.length(), 0);
+        vector<int> shouldDa(s.length(), 0);
 
         for (int a = 0; a < s.length(); a++)
         {
@@ -20,7 +22,7 @@ public:
         for (int c = 0; c < s.length(); c++)
         {
             // cout << shouldDa[c] << ' ' << shouldDb[c] << '\n';
-            if (shouldDa[c] + shouldDb[c] < answer) 
+            if (shouldDa[c] + shouldDb[c] < answer)
             {
                 answer = shouldDa[c] + shouldDb[c];
                 deleteIndex = c;

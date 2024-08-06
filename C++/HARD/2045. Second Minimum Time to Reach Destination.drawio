@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-07-28T11:53:59.508Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="ApwaiPLdSHAKLigBs1Hy" version="22.1.16" type="device">
+<mxfile host="Electron" modified="2024-07-29T12:26:18.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LqcSGJdefZ_h9HmKogmd" version="22.1.16" type="device">
   <diagram name="페이지-1" id="Tll_XDuqAGp0-DcrDELD">
-    <mxGraphModel dx="1180" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1660" dy="893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,8 +31,71 @@
         <mxCell id="sV6fjjBmM9j3t6tn4-od-9" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-1">
           <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sV6fjjBmM9j3t6tn4-od-10" value="int isSecond = false;&lt;br&gt;vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; adjList (n + 1, vector&amp;lt;int&amp;gt; {})&lt;br&gt;vector&amp;lt;int&amp;gt; (n + 1, 0);" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="410" height="90" as="geometry" />
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-10" value="int isSecond = false;&lt;br&gt;vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; adjList (n + 1, vector&amp;lt;int&amp;gt; {})&lt;br&gt;vector&amp;lt;int&amp;gt; (n + 1, 0);&lt;br&gt;&lt;br&gt;// 우선순위 큐로 가장 빠른 열 찾음&lt;br&gt;priority_queue&amp;lt;vector&amp;lt;int&amp;gt;, vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;, comp&amp;gt; q" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="410" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-13" value="모든 edge에 대해 간선 리스트 추가하는 작업" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="393" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-39" value="생략" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-13">
+          <mxGeometry x="167.35" y="120" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-15" value="큐 찾기 다익스트라" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="620" width="750" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-16" value="// 시작노드 추가하고 visited처리&lt;br&gt;visited[1] = 1;&lt;br&gt;q.push({1, 0})" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-15">
+          <mxGeometry x="20" y="50" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-19" value="q가 비어있지 않은 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-15">
+          <mxGeometry x="100" y="220" width="550" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-20" value="pair&amp;lt;int, int&amp;gt; next = q.top()&lt;br&gt;q.pop()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-19">
+          <mxGeometry x="30" y="50" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-22" value="모든 큐의 인접리스트에 대해 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-19">
+          <mxGeometry x="25" y="390" width="500" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-23" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-22">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-25" value="" style="group" vertex="1" connectable="0" parent="sV6fjjBmM9j3t6tn4-od-22">
+          <mxGeometry x="50" y="250" width="430" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-26" value="(next.fisrt + time) / change값이 홀순가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-25">
+          <mxGeometry x="-36.101694915254235" width="228.64406779661016" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-27" value="visited[인접리스트] =&amp;nbsp;1&lt;br&gt;q.push({(위의 값 + 1) * change})&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-25">
+          <mxGeometry x="-51.78" y="160" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-28" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sV6fjjBmM9j3t6tn4-od-25" source="sV6fjjBmM9j3t6tn4-od-26" target="sV6fjjBmM9j3t6tn4-od-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-29" value="visited[인접리스트] =&amp;nbsp;1&lt;br&gt;&amp;nbsp;q.push({next.first + time. 인접 리스트 값})" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-25">
+          <mxGeometry x="250" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-30" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sV6fjjBmM9j3t6tn4-od-25" source="sV6fjjBmM9j3t6tn4-od-26" target="sV6fjjBmM9j3t6tn4-od-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-31" value="visited[인접리스트] 면 continue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-22">
+          <mxGeometry x="90" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-33" value="" style="group" vertex="1" connectable="0" parent="sV6fjjBmM9j3t6tn4-od-19">
+          <mxGeometry x="120" y="160" width="336.85" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-34" value="next.second가 n인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-33">
+          <mxGeometry x="-28.77859017659166" width="182.2644044517472" height="66.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-35" value="isSecond가 true면 next. first 리턴 아닐시&amp;nbsp;&lt;br&gt;isSecond = true" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-33">
+          <mxGeometry x="-52.650000000000006" y="133.33" width="230" height="66.67" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-36" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sV6fjjBmM9j3t6tn4-od-33" source="sV6fjjBmM9j3t6tn4-od-34" target="sV6fjjBmM9j3t6tn4-od-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-37" value="pass" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="sV6fjjBmM9j3t6tn4-od-33">
+          <mxGeometry x="231.32850268583059" width="105.52149731416944" height="66.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="sV6fjjBmM9j3t6tn4-od-38" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sV6fjjBmM9j3t6tn4-od-33" source="sV6fjjBmM9j3t6tn4-od-34" target="sV6fjjBmM9j3t6tn4-od-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2024-08-06T12:41:55.639Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="m1ckTBP5Fm_0mnHnIRMy" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="JWG3_a1xdFsOfZXCbcjp">
+    <mxGraphModel dx="940" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NYSHlQdN43o0gmxXJukf-2" value="단가순으로 정렬" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-3" value="단가 낮은 큐에 넣기" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-5" value="nowQuality&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="NYSHlQdN43o0gmxXJukf-3">
+          <mxGeometry x="50" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-4" value="int nowQuality = 10억" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-6" value="큐에 넣고 계속 돌기" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="580" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-8" value="" style="group" vertex="1" connectable="0" parent="NYSHlQdN43o0gmxXJukf-6">
+          <mxGeometry x="70" y="130" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-9" value="이전 총 비용 ( 이전 단가 * 이전 총 용량 )이&amp;nbsp;&lt;br&gt;지금보다 높은가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="NYSHlQdN43o0gmxXJukf-8">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-10" value="nowQuality -= Q.top()&lt;br&gt;Q.pop()&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="NYSHlQdN43o0gmxXJukf-8">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NYSHlQdN43o0gmxXJukf-8" source="NYSHlQdN43o0gmxXJukf-9" target="NYSHlQdN43o0gmxXJukf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-12" value="생략" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="NYSHlQdN43o0gmxXJukf-8">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-13" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NYSHlQdN43o0gmxXJukf-8" source="NYSHlQdN43o0gmxXJukf-9" target="NYSHlQdN43o0gmxXJukf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-7" value="int recordRow = 10억" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NYSHlQdN43o0gmxXJukf-14" value="int unitPrice = 0" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="350" width="130" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

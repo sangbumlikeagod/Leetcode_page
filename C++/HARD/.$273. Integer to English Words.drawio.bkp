@@ -1,0 +1,87 @@
+<mxfile host="Electron" modified="2024-08-09T09:48:42.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="eJR82UvEFc-tWoWV4OhQ" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="1aD_-tSkXnieROx-2V9h">
+    <mxGraphModel dx="1343" dy="979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-1" value="string oneDigit[10] = {&quot;&quot;, &quot;One&quot;, &quot;Two&quot;,&amp;nbsp; &quot;Three&quot;, &quot;Four&quot;, &quot;Five&quot;, &quot;Six&quot;, &quot;Seven&quot;, &quot;Eignt&quot;, &quot;Nine&quot;};&lt;br&gt;string tenthDigit[10] = {&quot;Ten&quot;, &quot;Eleven&quot;, &quot;Twelve&quot;, &quot;Thirteen&quot;, &quot;Fourteen&quot;, &quot;Fifteen&quot;, &quot;Sixteen&quot;, &quot;Seventeen&quot;, &quot;Eighteen&quot;, &quot;Nineteen&quot;}&lt;br&gt;string nTenth[10] = { &quot;&quot;, &quot;&quot;, &quot;Twenty&quot;, &quot;Thirty&quot;, &quot;Fourty&quot;, &quot;Fifty&quot;, &quot;Sixty&quot;, &quot;Seventy&quot;, &quot;Eighty&quot;, &quot;Ninety&quot;}&lt;br&gt;string Thousands[4] = {&quot;&quot;, &quot;Thousand&quot;, &quot;Million&quot;, &quot;Billion&quot;}&lt;br&gt;int index = 0;&lt;br&gt;vector&amp;lt;string&amp;gt; answerList {};" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="710" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-2" value="100단위 처리 함수&amp;nbsp; (int) -&amp;gt; String" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="780" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-3" value="" style="group" vertex="1" connectable="0" parent="7cOnFg5DtAEiOy3jZXZJ-2">
+          <mxGeometry x="100" y="240" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-4" value="100으로 나눈 몫이 있는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-3">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-5" value="answer += oneDigit[몫] + &quot; &quot; + &quot;Hundred&quot;;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-3">
+          <mxGeometry y="193.33" width="270" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-6" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7cOnFg5DtAEiOy3jZXZJ-3" source="7cOnFg5DtAEiOy3jZXZJ-4" target="7cOnFg5DtAEiOy3jZXZJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-7" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-3">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-8" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7cOnFg5DtAEiOy3jZXZJ-3" source="7cOnFg5DtAEiOy3jZXZJ-4" target="7cOnFg5DtAEiOy3jZXZJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-9" value="String answer = &quot;&quot;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-2">
+          <mxGeometry x="90" y="100" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-10" value="" style="group" vertex="1" connectable="0" parent="7cOnFg5DtAEiOy3jZXZJ-2">
+          <mxGeometry x="49" y="570" width="721" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7cOnFg5DtAEiOy3jZXZJ-10" source="7cOnFg5DtAEiOy3jZXZJ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="263.83411262451716" y="48.33333333333326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-11" value="10으로 나눈 목이 1인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-10">
+          <mxGeometry x="-36.46972479593137" width="230.97492370756535" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-12" value="answer += tenthDigit[10의 나머지]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-10">
+          <mxGeometry y="193.33333333333331" width="158.0354741157026" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-13" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7cOnFg5DtAEiOy3jZXZJ-10" source="7cOnFg5DtAEiOy3jZXZJ-11" target="7cOnFg5DtAEiOy3jZXZJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-16" value="" style="group" vertex="1" connectable="0" parent="7cOnFg5DtAEiOy3jZXZJ-10">
+          <mxGeometry x="294.1261774073321" width="426.87382259266786" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7cOnFg5DtAEiOy3jZXZJ-16" source="7cOnFg5DtAEiOy3jZXZJ-17" target="7cOnFg5DtAEiOy3jZXZJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-17" value="0이 아닌가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-16">
+          <mxGeometry x="-36.46972479593137" width="230.97492370756535" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-18" value="answer += nTenth[10으로 나눈 몫]&lt;br&gt;answer += oneDigit[10으로 나눈 나머지]" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-16">
+          <mxGeometry y="193.33" width="210" height="126.67" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-19" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7cOnFg5DtAEiOy3jZXZJ-16" source="7cOnFg5DtAEiOy3jZXZJ-17" target="7cOnFg5DtAEiOy3jZXZJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-28" value="answer += oneDigit[10으로 나눈 나머지]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-16">
+          <mxGeometry x="286.8738225926679" y="18" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-30" value="메인 함수" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1460" width="780" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-32" value="num이 있을 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-30">
+          <mxGeometry x="113.52" y="120" width="552.96" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-33" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-32">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-34" value="answerList .push_back(hundreds(num % 1000) + &quot; &quot; + Thousands[index])" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-32">
+          <mxGeometry x="20" y="150" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7cOnFg5DtAEiOy3jZXZJ-36" value="index++&lt;br&gt;num /= 1000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7cOnFg5DtAEiOy3jZXZJ-32">
+          <mxGeometry x="20" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

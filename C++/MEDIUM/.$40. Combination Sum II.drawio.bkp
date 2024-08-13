@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2024-08-13T12:17:31.325Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="qfn7QEr3bJnojjZssmft" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="M_5F6YqR_eaaBQul44go">
+    <mxGraphModel dx="783" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-2" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-4" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-5" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-6" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-8" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-9" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-1">
+          <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-10" value="메인 알고리즘" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="620" width="740" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-19" value="int i = 1 부터 target 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-10">
+          <mxGeometry x="50" y="60" width="630" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-20" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. counting[i] 는 가용한 i가 총 몇개 있는지 세는 반복문&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-19">
+          <mxGeometry x="10" y="30" width="460" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-21" value="int j = 1 부터 counting[i] 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-19">
+          <mxGeometry x="30" y="120" width="530" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-22" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 이 안부터는 0부터&amp;nbsp; target - (i * j) 까지 반복해서 그 안에있던 모든 벡터들을&amp;nbsp;&lt;/p&gt;&lt;p&gt;k + ( i * j )벡터로 추가하는 작업&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-21">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-23" value="int k = 0 부터 target - (i * j) 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-21">
+          <mxGeometry x="60" y="140" width="450" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-24" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-23">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-25" value="모든 answers[k]안의 vector&amp;lt;int&amp;gt; arg에 대해" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-23">
+          <mxGeometry x="20" y="130" width="410" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-26" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-25">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-27" value="vector&amp;lt;int&amp;gt; tmp = arg;&lt;br&gt;tmp.push_back()&lt;br&gt;answers[k + (i * j)].push_back()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="2UpUieUHC2pN2-cIQoGD-25">
+          <mxGeometry x="70" y="170" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-11" value="카운팅 정렬" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="396" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-12" value="vector&amp;lt;int&amp;gt; counting (30, 0);" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-13" value="vector&amp;lt;vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;gt; answers = vector&amp;lt;vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt;&amp;gt;(30, vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; {});" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2UpUieUHC2pN2-cIQoGD-28" value="return answers[target]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1440" width="190" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

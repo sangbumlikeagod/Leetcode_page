@@ -1,0 +1,138 @@
+<mxfile host="Electron" modified="2024-08-14T15:19:16.641Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="9-ldxVDs7Rf-GubD9v1M" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="x40dTXu4NdFW9S1I4u6X">
+    <mxGraphModel dx="627" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-1" value="투포인터 부분 int binarySearch( Int target, vector&amp;lt;int&amp;gt; sorted)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="960" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-3" value="vector&amp;lt;int&amp;gt; sorted 의 모든 요소에&amp;nbsp; arg 대해서 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-1">
+          <mxGeometry x="70" y="125" width="860" height="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-4" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-3">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-2" value="int left = 0;&lt;br&gt;int right = index;" style="rounded=0;whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-3">
+          <mxGeometry x="130" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-41" value="left &amp;lt; right 인 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-3">
+          <mxGeometry x="30" y="185" width="790" height="635" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-42" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 중복이 있는 이진탐색에서 같은값은 조금 힘들긴한데 -&amp;gt; 무조건 작은애로 가게한다음에&amp;nbsp; 거기에 1 더한 값 빼면 되지&amp;nbsp;&lt;/p&gt;&lt;p&gt;그럼 이제 왼쪽 끝 0번 인덱스를 뺀 것도 arg - target보다 클 때는 어쩔 수가 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-41">
+          <mxGeometry x="10" y="30" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-45" value="" style="group" vertex="1" connectable="0" parent="W_hFM1nlqqsUBreFO9TQ-41">
+          <mxGeometry x="150" y="255" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-46" value="vec[mid]가&amp;nbsp; arg - target보다 크거나 같은가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-45">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-47" value="right = mid - 1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-45">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-48" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W_hFM1nlqqsUBreFO9TQ-45" source="W_hFM1nlqqsUBreFO9TQ-46" target="W_hFM1nlqqsUBreFO9TQ-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-49" value="left = mid" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-45">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-50" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W_hFM1nlqqsUBreFO9TQ-45" source="W_hFM1nlqqsUBreFO9TQ-46" target="W_hFM1nlqqsUBreFO9TQ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-51" value="int mid = (left + right) / 2 + (left + right) % 2" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-41">
+          <mxGeometry x="145" y="150" width="315" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-52" value="arg 보다 target이 크면 continue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-3">
+          <mxGeometry x="260" y="65" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-13" value="int ans = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-1">
+          <mxGeometry x="60" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-12" value="target 이진탐색" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1340" width="990" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-21" value="left &amp;lt; right인 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-12">
+          <mxGeometry x="40" y="150" width="950" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-22" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-21">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-27" value="" style="group" vertex="1" connectable="0" parent="W_hFM1nlqqsUBreFO9TQ-21">
+          <mxGeometry x="70" y="180" width="526.3708474576272" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-28" value="binary(mid) == k인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-27">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-29" value="return k" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-27">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W_hFM1nlqqsUBreFO9TQ-27" source="W_hFM1nlqqsUBreFO9TQ-28" target="W_hFM1nlqqsUBreFO9TQ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-32" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W_hFM1nlqqsUBreFO9TQ-27" source="W_hFM1nlqqsUBreFO9TQ-28" target="W_hFM1nlqqsUBreFO9TQ-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0025423728814" y="48.33333333333326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-33" value="binary(mid) &amp;gt; k인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-27">
+          <mxGeometry x="249.99796610169494" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-24" value="int mid = (left + right) / 2" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-21">
+          <mxGeometry x="140" y="60" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-36" value="Left = mid + 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-21">
+          <mxGeometry x="378.184406779661" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W_hFM1nlqqsUBreFO9TQ-21" source="W_hFM1nlqqsUBreFO9TQ-33" target="W_hFM1nlqqsUBreFO9TQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-38" value="right = mid" style="whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-21">
+          <mxGeometry x="694.5572881355932" y="198.33333333333331" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="W_hFM1nlqqsUBreFO9TQ-21" source="W_hFM1nlqqsUBreFO9TQ-33" target="W_hFM1nlqqsUBreFO9TQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-40" value="return left" style="whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-12">
+          <mxGeometry x="100.004406779661" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-53" value="투포인터 부분 int binarySearch( Int target, vector&amp;lt;int&amp;gt; sorted)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="90" width="960" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-54" value="vector&amp;lt;int&amp;gt; sorted 의 모든 요소에&amp;nbsp; arg 대해서 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-53">
+          <mxGeometry x="70" y="125" width="850" height="825" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-55" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-56" value="int left = index - 1;&lt;br&gt;int right = index;" style="rounded=0;whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="310" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-57" value="vec[right] - vec[left]&amp;nbsp; &amp;lt;= target인동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="30" y="185" width="760" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-68" value="left --" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-57">
+          <mxGeometry x="300" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-69" value="answer += right - left" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="220" y="536.67" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-70" value="right--" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="220" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-71" value="right이 0보다 큰 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="10" y="150" width="810" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-73" value="int answer = 0;" style="rounded=0;whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="464" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-74" value="return answer = 0;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-54">
+          <mxGeometry x="230" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W_hFM1nlqqsUBreFO9TQ-67" value="int ans = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="W_hFM1nlqqsUBreFO9TQ-53">
+          <mxGeometry x="60" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

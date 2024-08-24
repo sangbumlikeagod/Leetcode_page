@@ -1,0 +1,136 @@
+<mxfile host="Electron" modified="2024-08-24T06:01:49.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="wZ-MQLeBuvJvma7ELGcd" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="ao0VE5WWf46i7Rsun4a6">
+    <mxGraphModel dx="590" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-1" value="int isOdd = n.length() % 2&lt;br&gt;int isPalindrom = 1;&lt;br&gt;string answer = &quot;&quot;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-2" value="팰린드롬 확인 코드" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="670" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-6" value="left = 0 가 n.length() / 2보다 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-2">
+          <mxGeometry x="65" y="150" width="540" height="455" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-7" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-6">
+          <mxGeometry x="330" y="35" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-14" value="" style="group" vertex="1" connectable="0" parent="_Xvz20SxwV1C5D4Ndp2e-6">
+          <mxGeometry x="51.58000000000001" y="125.00000000000023" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-15" value="n[left] == n[n.length() - 1 - left] 인가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-14">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-16" value="pass" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-14">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-17" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_Xvz20SxwV1C5D4Ndp2e-14" source="_Xvz20SxwV1C5D4Ndp2e-15" target="_Xvz20SxwV1C5D4Ndp2e-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-18" value="isPalindrom = 0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-14">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-19" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_Xvz20SxwV1C5D4Ndp2e-14" source="_Xvz20SxwV1C5D4Ndp2e-15" target="_Xvz20SxwV1C5D4Ndp2e-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-28" value="기능 구현" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="970" width="1570" height="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-35" value="팰린드롬일 때" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-28">
+          <mxGeometry x="30" y="80" width="1520" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-39" value="왼쪽 절반이 100... 인지 확인" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-35">
+          <mxGeometry x="92" y="200" width="606" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-42" value="canBeLowerDigits 일 경우" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-35">
+          <mxGeometry x="780" y="40" width="710" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-58" value="문자 배열에서 1빼기" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-42">
+          <mxGeometry x="20" y="40" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-43" value="canBeLowerDigits 아닐 경우" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-35">
+          <mxGeometry x="780" y="310" width="710" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-57" value="문자 배열에서 1빼기" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-43">
+          <mxGeometry x="10" y="40" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-40" value="int canBeLowerDigits = 1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-35">
+          <mxGeometry x="110" y="70" width="267.56" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-37" value="팰린드롬이&amp;nbsp; 아닐 때" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-28">
+          <mxGeometry x="20" y="1470" width="1520" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-44" value="전체가 100... 인지 확인" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-37">
+          <mxGeometry x="50" y="160" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-46" value="int canBeLowerDigits = 1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-37">
+          <mxGeometry x="50" y="50" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-47" value="canBeLowerDigits 이면 9999 리턴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-37">
+          <mxGeometry x="50" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-48" value="isOdd 이면서 가운데 숫자가 &#39;0&#39;이 아닌경우와 왼쪽 절반이 1000.. .이 아니라면&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-37">
+          <mxGeometry x="310" y="30" width="880" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-50" value="왼쪽 절반을 뒤집은 문자열 까지 오른쪽 문자열이 변하는데 드는 수 계산" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-37">
+          <mxGeometry x="310" y="330" width="1130" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-55" value="string halfLeft =substr(n.begin(), n.length() / 2)&lt;br&gt;string halfRight =substr(n.begin(), n.length() / 2)&lt;br&gt;reverse(halfRight.begin(), halfRight.end);" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-50">
+          <mxGeometry x="20" y="130" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-52" value="long long cost = -10000..." style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-50">
+          <mxGeometry x="10" y="30" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-68" value="reverse(halfLeft.begin(), halfLeft.end())" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-50">
+          <mxGeometry x="380" y="80" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-70" value="long long longLeft stoll(halfLeft)&lt;br&gt;long long longRight stoll(halfRight)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-50">
+          <mxGeometry x="760" y="95" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-78" value="" style="group" vertex="1" connectable="0" parent="_Xvz20SxwV1C5D4Ndp2e-50">
+          <mxGeometry x="110" y="290" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-79" value="cost&amp;nbsp; &amp;lt; abs(halfLeft - halfRight)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-78">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-80" value="answer = isOdd?&amp;nbsp; halfLeft + &quot;0&quot; +halfRight&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-78">
+          <mxGeometry y="193.33" width="270" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-81" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_Xvz20SxwV1C5D4Ndp2e-78" source="_Xvz20SxwV1C5D4Ndp2e-79" target="_Xvz20SxwV1C5D4Ndp2e-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-82" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-78">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-83" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_Xvz20SxwV1C5D4Ndp2e-78" source="_Xvz20SxwV1C5D4Ndp2e-79" target="_Xvz20SxwV1C5D4Ndp2e-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-59" value="문자 배열에서 1빼기(문자열 , 더하기인지 값)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1280" width="700" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-60" value="인덱스&lt;br&gt;&lt;br&gt;다음 자리수로 넘어가야하는지 bool값&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-59">
+          <mxGeometry x="100" y="80" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-62" value="" style="group" vertex="1" connectable="0" parent="_Xvz20SxwV1C5D4Ndp2e-59">
+          <mxGeometry x="100" y="225" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-63" value="자기가 0인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-62">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-64" value="자기값을 9로 바꿈" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-62">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-65" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_Xvz20SxwV1C5D4Ndp2e-62" source="_Xvz20SxwV1C5D4Ndp2e-63" target="_Xvz20SxwV1C5D4Ndp2e-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-66" value="자기값 -= 1&lt;br&gt;넘어가야하는지 = false" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="_Xvz20SxwV1C5D4Ndp2e-62">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="_Xvz20SxwV1C5D4Ndp2e-67" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="_Xvz20SxwV1C5D4Ndp2e-62" source="_Xvz20SxwV1C5D4Ndp2e-63" target="_Xvz20SxwV1C5D4Ndp2e-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

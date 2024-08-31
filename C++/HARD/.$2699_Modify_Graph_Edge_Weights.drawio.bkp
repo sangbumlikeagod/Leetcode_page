@@ -1,0 +1,183 @@
+<mxfile host="Electron" modified="2024-08-30T15:01:25.868Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="p0aVoDIvbfBIyNYWOwUw" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="m9zzuuKFbmDfCAMSgIUq">
+    <mxGraphModel dx="1475" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-2" value="vectr&amp;lt;vector&amp;lt;pair&amp;lt;int, int&amp;gt;&amp;gt;&amp;gt;&amp;nbsp;&amp;nbsp;adjacencyList&lt;br&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px;&quot;&gt;vector&amp;lt;vector&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #dcdcaa;&quot;&gt;distances&lt;/span&gt;(n, &lt;span style=&quot;color: #dcdcaa;&quot;&gt;vector&lt;/span&gt;&amp;lt;&lt;span style=&quot;color: #569cd6;&quot;&gt;int&lt;/span&gt;&amp;gt;(&lt;span style=&quot;color: #b5cea8;&quot;&gt;2&lt;/span&gt;, INT_MAX));&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="580" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-3" value="모든 edges들에 대해서 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="240" width="390" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-1" value="adjList에 상대방 노드 , edge의 인덱스를 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-3">
+          <mxGeometry x="63" y="130" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-4" value="다익스트라 코드 인접리스트 주소,&amp;nbsp; 거리 주소, edges 주소 , 차이, 회차&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="190" width="1200" height="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-6" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px;&quot;&gt;priorityQueue&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-4">
+          <mxGeometry x="50" y="70" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-7" value="priorityQueue .push ({ 0, source })" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-4">
+          <mxGeometry x="50" y="180" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-8" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 15px; line-height: 23px;&quot;&gt;distances[source][run] &lt;span style=&quot;color: #d4d4d4;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-4">
+          <mxGeometry x="50" y="280" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-10" value="priorityQueue가 비어있지 않은 동안 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-4">
+          <mxGeometry x="30" y="395" width="1170" height="1815" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-11" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-10">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-12" value="prioryQueue의 첫요소 가져오고 pop&lt;br&gt;현재 비용과 노드를 가져옴&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-10">
+          <mxGeometry x="40" y="135" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-13" value="" style="group" vertex="1" connectable="0" parent="aeBq3v3zaaAvEhFlKONQ-10">
+          <mxGeometry x="60" y="235" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-14" value="현재 비용이 현재 회차 현재 노드의 값보다 크다면 ( 이미 더 최적의 경우가 나왔다면 )&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-13">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-15" value="continue" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-13">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-16" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-13" source="aeBq3v3zaaAvEhFlKONQ-14" target="aeBq3v3zaaAvEhFlKONQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-17" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-13">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-18" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-13" source="aeBq3v3zaaAvEhFlKONQ-14" target="aeBq3v3zaaAvEhFlKONQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-19" value="ㄴ" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-10">
+          <mxGeometry x="110" y="555" width="900" height="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-20" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-19">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-22" value="nextNode , weight" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-19">
+          <mxGeometry x="103.43000000000006" y="150" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-23" value="weight이 -1이면 1로 변경" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-19">
+          <mxGeometry x="100" y="250" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-24" value="" style="group" vertex="1" connectable="0" parent="aeBq3v3zaaAvEhFlKONQ-19">
+          <mxGeometry x="160" y="370" width="620" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-25" value="1회차 이후이고 바뀌기전 weight이 -1인가&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-24">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-26" value="1회차에 모자랐던 값 더하기 현재 노드에서 NextNode까지 가는데 필요한 값을 더해 newWeight으로 구한다" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-24">
+          <mxGeometry y="160" width="620" height="96.67" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-27" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-24" source="aeBq3v3zaaAvEhFlKONQ-25" target="aeBq3v3zaaAvEhFlKONQ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-28" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-24">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-29" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-24" source="aeBq3v3zaaAvEhFlKONQ-25" target="aeBq3v3zaaAvEhFlKONQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-30" value="" style="group" vertex="1" connectable="0" parent="aeBq3v3zaaAvEhFlKONQ-19">
+          <mxGeometry x="160" y="640" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-31" value="newWeight이 1보다 큰가 즉 현재값이 너무커서 오히려 음수를 더해야하지 않은가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-30">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-32" value="원본 edges의 값을 변경" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-30">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-33" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-30" source="aeBq3v3zaaAvEhFlKONQ-31" target="aeBq3v3zaaAvEhFlKONQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-34" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-30">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-35" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-30" source="aeBq3v3zaaAvEhFlKONQ-31" target="aeBq3v3zaaAvEhFlKONQ-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-36" value="" style="group" vertex="1" connectable="0" parent="aeBq3v3zaaAvEhFlKONQ-19">
+          <mxGeometry x="160" y="970" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-37" value="distance[현재노드][현재 회차] + 가중치&amp;nbsp; 한 값이 distance[next노드][현재회차] 보다 작은가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-36">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-38" value="값 변경" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-36">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-39" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-36" source="aeBq3v3zaaAvEhFlKONQ-37" target="aeBq3v3zaaAvEhFlKONQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-40" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-36">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-41" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-36" source="aeBq3v3zaaAvEhFlKONQ-37" target="aeBq3v3zaaAvEhFlKONQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-42" value="&amp;nbsp;0회차 차이가 0일때 Dijstra 실행" style="rounded=0;whiteSpace=wrap;html=1;shape=label;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-43" value="int difference = 목표값 target에서 - 목적지까지 0회차에서 갈 수 있던 최소값 차이" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="700" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-50" value="diff" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="860" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-51" value="difference가 0보다 작은가" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-50">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-52" value="빈 배열 리턴" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-50">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-53" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-50" source="aeBq3v3zaaAvEhFlKONQ-51" target="aeBq3v3zaaAvEhFlKONQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-54" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-50">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-55" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-50" source="aeBq3v3zaaAvEhFlKONQ-51" target="aeBq3v3zaaAvEhFlKONQ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-56" value="&amp;nbsp; 1회차 차이가 difference 일때 Dijstra 실행" style="rounded=0;whiteSpace=wrap;html=1;shape=label;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1220" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-57" value="diff" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="90" y="1430" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-58" value="1회차 distances[destination][1] 이 target보다 작은가&amp;nbsp;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-57">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-59" value="빈 배열 리턴" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="aeBq3v3zaaAvEhFlKONQ-57">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-60" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="aeBq3v3zaaAvEhFlKONQ-57" source="aeBq3v3zaaAvEhFlKONQ-58" target="aeBq3v3zaaAvEhFlKONQ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-61" value="모든 -1 인 edge들에 대해서 반복" style="whiteSpace=wrap;html=1;rounded=0;shape=swimlane;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1940" width="486.85" height="290" as="geometry">
+            <mxRectangle x="120" y="1940" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-62" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aeBq3v3zaaAvEhFlKONQ-58" target="aeBq3v3zaaAvEhFlKONQ-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="1478" />
+              <mxPoint x="610" y="1733" />
+              <mxPoint x="363" y="1733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-63" value="edge들 1로 변경 ( 이러면 target보다 작게 들어올 수 있는거 아닌가)&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2080" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aeBq3v3zaaAvEhFlKONQ-64" value="edge들 1로 변경 ( 이러면 target보다 작게 들어올 수 있는거 아닌가)&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="206.85" y="2310" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

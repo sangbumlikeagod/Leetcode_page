@@ -1,0 +1,82 @@
+<mxfile host="Electron" modified="2024-09-20T14:34:46.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.16 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="jAlWJCfHL7qO8X-cPgj7" version="22.1.16" type="device">
+  <diagram name="페이지-1" id="Po1tcjolKozCcQ9aZk88">
+    <mxGraphModel dx="843" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-3" value="int right;&lt;br&gt;int center;&lt;br&gt;int maxR = 0;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="141" y="130" width="129" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-1" value="int i = 0 부터 최대 길이 K 까지 반복" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="660" height="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-2" value="&lt;h1&gt;-&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-5" value="right이 i보다 큰가?&lt;br&gt;이미 최대 팰린드롬의 오른쪽이 나보다 큰가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="68.11753636880363" y="120" width="227.255602997577" height="90.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-6" value="&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="62.25" y="280" width="237.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-7" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7qJSOpAyZXzHLOLVoJ0I-1" source="7qJSOpAyZXzHLOLVoJ0I-5" target="7qJSOpAyZXzHLOLVoJ0I-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-8" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="480" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-9" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7qJSOpAyZXzHLOLVoJ0I-1" source="7qJSOpAyZXzHLOLVoJ0I-5" target="7qJSOpAyZXzHLOLVoJ0I-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-11" value="i + wing &amp;lt; K이고 word[i + wing] == word[i - wing] 인동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="30" y="520" width="610" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-12" value="&lt;h1&gt;예외처리&lt;/h1&gt;&lt;p&gt;1. 없음&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-11">
+          <mxGeometry x="10" y="30" width="386" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-15" value="wing++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-11">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-13" value="int wing = palin[i]&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="57.87" y="370" width="252.13" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-16" value="" style="group" vertex="1" connectable="0" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="57.870000000000005" y="850" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-17" value="i + wing이 r보다 큰가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-16">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-18" value="r = i + wing;&lt;br&gt;c = i" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-16">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-19" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7qJSOpAyZXzHLOLVoJ0I-16" source="7qJSOpAyZXzHLOLVoJ0I-17" target="7qJSOpAyZXzHLOLVoJ0I-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-20" value="pass" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-16">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-21" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7qJSOpAyZXzHLOLVoJ0I-16" source="7qJSOpAyZXzHLOLVoJ0I-17" target="7qJSOpAyZXzHLOLVoJ0I-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-23" value="" style="group" vertex="1" connectable="0" parent="7qJSOpAyZXzHLOLVoJ0I-1">
+          <mxGeometry x="50" y="1150" width="436.85" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-24" value="i - wing이 0인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-23">
+          <mxGeometry x="-37.32203389830508" width="236.37288135593218" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-25" value="maxR = wing + i" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-23">
+          <mxGeometry y="193.33333333333331" width="161.72881355932202" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-26" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7qJSOpAyZXzHLOLVoJ0I-23" source="7qJSOpAyZXzHLOLVoJ0I-24" target="7qJSOpAyZXzHLOLVoJ0I-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-27" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="7qJSOpAyZXzHLOLVoJ0I-23">
+          <mxGeometry x="300.00254237288135" width="136.84745762711864" height="96.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="7qJSOpAyZXzHLOLVoJ0I-28" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7qJSOpAyZXzHLOLVoJ0I-23" source="7qJSOpAyZXzHLOLVoJ0I-24" target="7qJSOpAyZXzHLOLVoJ0I-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

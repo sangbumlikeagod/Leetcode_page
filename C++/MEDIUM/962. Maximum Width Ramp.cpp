@@ -1,7 +1,9 @@
-class Solution {
+class Solution
+{
 public:
-    int maxWidthRamp(vector<int>& nums) {
-        vector<int> list {};
+    int maxWidthRamp(vector<int> &nums)
+    {
+        vector<int> list{};
 
         for (int i = 0; i < nums.size(); i++)
         {
@@ -24,6 +26,5 @@ public:
             }
         }
         return answer;
-
     }
 };

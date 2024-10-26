@@ -1,0 +1,93 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="페이지-1" id="c83iHrOQOHOnNjxTAx6i">
+    <mxGraphModel dx="752" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="10" width="278" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-2" value=": 변수 선언" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="170" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="24" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-4" value=": 행동 코드" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="170" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-5" value="~ 동안" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="24" y="180" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-6" value=": 반복 구문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="170" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="24" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-8" value=": if문" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="156" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-9" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="I3LT_XMLDtGpJIyS-8Db-1">
+          <mxGeometry x="19" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-10" value="vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; DP&amp;nbsp;&lt;div&gt;DP[x][y] = x번 노드가 상태가 y(0, 1)일 때 부터 마지막 노드까지의 최대값.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="410" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-16" value="O" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-12" target="I3LT_XMLDtGpJIyS-8Db-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-25" value="X" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" target="I3LT_XMLDtGpJIyS-8Db-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260.0014873366672" y="625.9316018712695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-12" value="마지막 노드인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="570" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-18" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-15" target="I3LT_XMLDtGpJIyS-8Db-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-15" target="I3LT_XMLDtGpJIyS-8Db-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-15" value="현재 type이 1인가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="715" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-17" value="0을 리턴" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="865" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-21" value="INT MIN을 리턴" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="725" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-30" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-24" target="I3LT_XMLDtGpJIyS-8Db-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-32" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-24" target="I3LT_XMLDtGpJIyS-8Db-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-24" value="DP[node][type] 있는가?" style="whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=default;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="201.56" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-29" value="DP[node][type]을 리턴" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565.78" y="725" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-34" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-31" target="I3LT_XMLDtGpJIyS-8Db-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-31" value="int nonXor = nums[node] + recur(index + 1, type = 0)" style="whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="930" y="580" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-36" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="I3LT_XMLDtGpJIyS-8Db-33" target="I3LT_XMLDtGpJIyS-8Db-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-33" value="int Xor = nums[node] ^ k + recur(index + 1, type = 0)" style="whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="580" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="I3LT_XMLDtGpJIyS-8Db-35" value="return DP[node][type] =&amp;nbsp; max(nonXor, Xor)" style="whiteSpace=wrap;html=1;shape=cube;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="750" width="250" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

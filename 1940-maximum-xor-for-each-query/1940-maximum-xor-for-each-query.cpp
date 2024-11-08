@@ -7,22 +7,13 @@ public:
             xorS ^= num;
         }
         vector<int> answer;
-        int maxNum = pow(2, maximumBit);
+        int maxNum = pow(2, maximumBit) - 1;
         while (!nums.empty())
         {
             int ans = 0;
             int idx = 0;
             int idxBit = 1;
-            while (maximumBit > idx)
-            {
-                if ((idxBit & xorS) == 0)
-                {
-                    ans += idxBit;
-                }
-                idxBit <<= 1;
-                idx++;
-            }
-            answer.push_back(ans);
+            answer.push_back(xorS ^ maxNum);
             xorS ^= nums.back();
             nums.pop_back();
         }

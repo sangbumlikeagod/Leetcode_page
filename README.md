@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1972-rotating-the-box](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1972-rotating-the-box) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
@@ -128,4 +130,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3189-find-champion-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3189-find-champion-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
+## Backtracking
+|  |
+| ------- |
+| [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
+## Memoization
+|  |
+| ------- |
+| [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 <!---LeetCode Topics End-->

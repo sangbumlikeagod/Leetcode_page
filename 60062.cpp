@@ -17,3 +17,6 @@ int solution(int n, vector<int> weak, vector<int> dist) {
     answer++;
     return answer;
 }
+
+
+int abswer;

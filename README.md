@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
+| [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 ## Prefix Sum
 |  |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
+| [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
 ## Number Theory
@@ -147,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
+| [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -161,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2232-adding-spaces-to-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2232-adding-spaces-to-a-string) |
+| [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |

@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -213,11 +214,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 ## Backtracking
 |  |
 | ------- |
+| [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 ## Breadth-First Search
 |  |

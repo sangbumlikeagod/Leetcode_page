@@ -11,6 +11,8 @@
 <strong>Explanation:</strong> There is no 132 pattern in the sequence.
 </pre>
 
+<h1>easteregg</h1>
+
 <p><strong class="example">Example 2:</strong></p>
 
 <pre>

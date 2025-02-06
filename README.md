@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
+| [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1396-count-servers-that-communicate) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1502-construct-k-palindrome-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |

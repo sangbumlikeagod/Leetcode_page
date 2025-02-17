@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2448-count-number-of-bad-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Binary Search
 |  |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [1160-letter-tile-possibilities](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Breadth-First Search
 |  |
 | ------- |

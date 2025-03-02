@@ -1,0 +1,20 @@
+class Solution {
+public:
+    vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
+        vector<vector<int>> answer {};
+        map<int, int> mapps;
+        for (auto& arg : nums1)
+        {
+            mapps[arg[0]] += arg[1];
+        }
+        for (auto& arg : nums2)
+        {
+            mapps[arg[0]] += arg[1];
+        }
+
+        for (auto arg = mapps.begin(); arg != mapps.end(); arg++){
+            answer.push_back(vector<int> {arg-> first, arg -> second});
+        }
+        return answer;
+    }
+};

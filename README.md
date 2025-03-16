@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2665-minimum-time-to-repair-cars](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2665-minimum-time-to-repair-cars) |
 | [2685-first-completely-painted-row-or-column](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2690-house-robber-iv) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2665-minimum-time-to-repair-cars](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |

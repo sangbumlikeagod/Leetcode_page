@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
+| [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1502-construct-k-palindrome-strings) |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0277-find-the-celebrity](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0277-find-the-celebrity) |
+| [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -323,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
+| [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1159-smallest-subsequence-of-distinct-characters) |

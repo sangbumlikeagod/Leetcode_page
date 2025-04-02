@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2792-neighboring-bitwise-xor) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3227-find-missing-and-repeated-values) |

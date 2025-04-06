@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
@@ -416,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |

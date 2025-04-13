@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [2050-count-good-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2050-count-good-numbers) |
 | [2448-count-number-of-bad-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2649-count-total-number-of-colored-cells) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
@@ -602,4 +603,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3548-find-the-count-of-good-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3548-find-the-count-of-good-integers) |
+## Recursion
+|  |
+| ------- |
+| [2050-count-good-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2050-count-good-numbers) |
 <!---LeetCode Topics End-->

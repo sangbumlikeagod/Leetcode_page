@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2050-count-good-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2050-count-good-numbers) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2649-count-total-number-of-colored-cells) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
 ## Sorting
 |  |
@@ -491,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2262-solving-questions-with-brainpower) |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2562-count-ways-to-build-good-strings) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3243-count-the-number-of-powerful-integers) |
 ## Backtracking
@@ -654,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [2415-count-the-number-of-ideal-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3548-find-the-count-of-good-integers) |
 ## Recursion
 |  |

@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-        vector<vector<int>> dp(nums.size() + 1, vector<int> (40001, 0));
+        vector<vector<int>> dp(nums.size() + 1, vector<int> (20001, 0));
         int answer = 0;
         for (int num : nums)
         {

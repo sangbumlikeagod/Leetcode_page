@@ -713,4 +713,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2280-count-good-triplets-in-an-array) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->

@@ -733,4 +733,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0176-second-highest-salary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0176-second-highest-salary) |
 | [1317-monthly-transactions-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1317-monthly-transactions-i) |
+| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 <!---LeetCode Topics End-->

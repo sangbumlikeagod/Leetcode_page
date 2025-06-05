@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [0797-rabbits-in-forest](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0797-rabbits-in-forest) |
@@ -540,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |

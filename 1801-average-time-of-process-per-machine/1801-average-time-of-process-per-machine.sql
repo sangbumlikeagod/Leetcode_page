@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select w1.machine_id, round(avg(w1.elapsed_time), 3) as processing_time from (select machine_id, process_id, (max(timestamp) - min(timestamp)) as elapsed_time from Activity group by machine_id , process_id) as w1 group by w1.machine_id; 

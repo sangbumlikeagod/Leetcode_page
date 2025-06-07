@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+-- select st.student_id, st.student_name, ex.subject_name, count(*) as attended_exams from Examinations as ex left join Students as st on ex.student_id = st.student_id group by st.student_id, ex.subject_name
+
+select w1.student_id, w1.student_name, w1.subject_name, sum(coalesce(case when ex.subject_name is not null then 1 end, 0)) as attended_exams from (select * from Students as ex cross join Subjects) as w1 left join Examinations as ex on w1.student_id = ex.student_id and w1.subject_name = ex.subject_name group by w1.student_id, w1.subject_name order by student_id asc
+-- select * from (select * from Students as ex cross join Subjects) as w1 left join Examinations as ex on w1.student_id = ex.student_id and w1.subject_name = ex.subject_name group by w1.student_id, ex.subject_name

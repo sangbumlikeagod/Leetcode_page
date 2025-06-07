@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
+| [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
@@ -549,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
+| [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |

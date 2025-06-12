@@ -452,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
+| [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
@@ -556,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
+| [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
 | [0337-house-robber-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0337-house-robber-iii) |

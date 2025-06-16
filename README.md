@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2048-build-array-from-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2048-build-array-from-permutation) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
 | [2107-find-unique-binary-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2107-find-unique-binary-string) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2145-grid-game) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |

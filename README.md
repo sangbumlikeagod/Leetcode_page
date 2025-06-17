@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0797-rabbits-in-forest) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
@@ -569,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
+| [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0337-house-robber-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0337-house-robber-iii) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
@@ -610,6 +612,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |

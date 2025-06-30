@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
+| [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0646-maximum-length-of-pair-chain) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
+| [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0797-rabbits-in-forest) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -217,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1160-letter-tile-possibilities](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1160-letter-tile-possibilities) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -259,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1755-defuse-the-bomb) |
@@ -380,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
+| [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0646-maximum-length-of-pair-chain) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |

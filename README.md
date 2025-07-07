@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -359,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0797-rabbits-in-forest](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0797-rabbits-in-forest) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1159-smallest-subsequence-of-distinct-characters) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1502-construct-k-palindrome-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1502-construct-k-palindrome-strings) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
@@ -396,6 +398,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0646-maximum-length-of-pair-chain) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -477,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |

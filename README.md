@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-defuse-the-bomb](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1755-defuse-the-bomb) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1876-map-of-highest-peak](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -400,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -647,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2262-solving-questions-with-brainpower) |

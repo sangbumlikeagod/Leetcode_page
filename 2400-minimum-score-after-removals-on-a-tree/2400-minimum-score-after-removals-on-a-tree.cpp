@@ -17,25 +17,18 @@ private:
 
     bool lcas(vector<vector<int>>& lca, int l, int r, vector<int>& levels)
     {
-        // printf("%d, %d 2개의 레벨을 찾는다\n", l, r);
         int ll = levels[l], lr = levels[r];
-        // printf("각각의 레벨은 %d, %d이다\n", ll, lr);
         if (ll > lr)
         {
-            // printf("%d이, %d 보다 작기때문에 바꾼다\n", ll, lr);
             swap(ll, lr);
             swap(l, r);
         }
-        // 항성 lr이 크다고했다 그말은 밑의층이라는것
         int aa = 512;
         int aa_s = 9;
-        // printf("두개의 레벨차이는 다음과 같다. %d \n", lr - ll);
          while (aa)
         {
             if ((lr - ll) & aa)
             {
-                // printf("\t %d 만큼의 차이가 나기 때문에 그만큼을 채운다 %d %d \n", aa, aa_s);
-                // printf("\t 이걸통해 원래 %d 였던 l값이 %d가 된다\n", l, lca[l][aa_s]);
                 r = lca[r][aa_s];
             }
             aa >>= 1;
@@ -101,12 +94,6 @@ public:
             }
         }
 
-        for (int val : vals)
-            {
-                cout << val << '\t';
-            }
-        cout << '\n';
-
         int answer = INT_MAX;
         for (int i = 0; i < en; i++)
         {
@@ -127,7 +114,6 @@ public:
                 if (lcas(lca, ll, lr, levels))
                 {
                     if (levels[ll] > levels[lr]) swap(ll, lr);
-                    // cout << \t << ll 
                     int head = vals[0] ^ vals[ll];
                     int tail1 = vals[ll] ^ vals[lr];
                     int tail2 = vals[lr];
@@ -136,9 +122,6 @@ public:
                     M = max(M, tail2);
                     m = min(head, tail1);
                     m = min(m, tail2);
-                    // cout << head << '\n';
-                    // cout << tail1 << '\n';
-                    // cout << tail2 << '\n';
                 }
                 else
                 {
@@ -150,12 +133,7 @@ public:
                     M = max(M, tail2);
                     m = min(head, tail1);
                     m = min(m, tail2);
-                    // cout << head << '\n';
-                    // cout << tail1 << '\n';
-                    // cout << tail2 << '\n';
                 }
-                // cout << i << ' ' << j << ' ' << lcas(lca, ll, lr, levels) << ' ' << M << ' ' << m << '\n';
-
                 answer = min(answer, M - m);
             }
         }

@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0854-making-a-large-island](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0854-making-a-large-island) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [1025-minimum-cost-for-tickets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1025-minimum-cost-for-tickets) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -220,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1940-maximum-xor-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1940-maximum-xor-for-each-query) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -676,6 +678,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0806-domino-and-tromino-tiling](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1063-best-sightseeing-pair) |
 | [1134-shortest-distance-to-target-color](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1134-shortest-distance-to-target-color) |

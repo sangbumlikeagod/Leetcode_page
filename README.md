@@ -933,6 +933,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0626-exchange-seats](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0626-exchange-seats) |
 | [1135-customers-who-bought-all-products](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1135-customers-who-bought-all-products) |
 | [1179-game-play-analysis-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1179-game-play-analysis-i) |
+| [1214-highest-grade-for-each-student](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1214-highest-grade-for-each-student) |
 | [1292-immediate-food-delivery-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1317-monthly-transactions-i) |
 | [1415-students-and-examinations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1415-students-and-examinations) |

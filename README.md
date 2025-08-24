@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1628-count-submatrices-with-all-ones](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0940-fruit-into-baskets) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1755-defuse-the-bomb) |
 | [1813-maximum-erasure-value](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1813-maximum-erasure-value) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
@@ -720,6 +722,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1063-best-sightseeing-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1063-best-sightseeing-pair) |
 | [1134-shortest-distance-to-target-color](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1134-shortest-distance-to-target-color) |
 | [1170-shortest-common-supersequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1170-shortest-common-supersequence) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |

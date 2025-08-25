@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
 | [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0646-maximum-length-of-pair-chain](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0646-maximum-length-of-pair-chain) |
 | [0679-24-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0679-24-game) |
@@ -636,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0854-making-a-large-island) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2048-build-array-from-permutation) |
 | [2232-adding-spaces-to-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2232-adding-spaces-to-a-string) |

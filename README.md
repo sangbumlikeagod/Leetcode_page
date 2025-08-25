@@ -978,6 +978,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1415-students-and-examinations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1415-students-and-examinations) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1480-movie-rating](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1480-movie-rating) |
+| [1578-apples-oranges](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1578-apples-oranges) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1801-average-time-of-process-per-machine](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1801-average-time-of-process-per-machine) |
 | [1811-fix-names-in-a-table](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1811-fix-names-in-a-table) |

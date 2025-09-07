@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
 | [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
@@ -654,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
@@ -776,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0679-24-game) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |

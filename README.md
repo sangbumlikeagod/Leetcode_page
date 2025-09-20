@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3748-sort-matrix-by-diagonals) |
 | [3790-fruits-into-baskets-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 ## Hash Table
 |  |
 | ------- |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3856-maximum-weighted-k-edge-path) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Bit Manipulation
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3643-zero-array-transformation-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 ## Greedy
 |  |
 | ------- |
@@ -572,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2408-number-of-people-aware-of-a-secret](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -936,6 +940,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3791-fruits-into-baskets-iii) |
+| [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 ## Trie
 |  |
 | ------- |
@@ -982,6 +987,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
+| [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 ## Data Stream
 |  |
 | ------- |

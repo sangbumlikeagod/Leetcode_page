@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-maximum-ascending-subarray-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1927-maximum-ascending-subarray-sum) |
 | [1940-maximum-xor-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1940-maximum-xor-for-each-query) |
 | [1972-rotating-the-box](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1972-rotating-the-box) |
+| [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
 | [2048-build-array-from-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1813-maximum-erasure-value](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1813-maximum-erasure-value) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2107-find-unique-binary-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2107-find-unique-binary-string) |
@@ -584,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
+| [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
@@ -934,6 +937,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
+| [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
 | [2280-count-good-triplets-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2434-design-a-number-container-system) |
@@ -984,6 +988,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
+| [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |

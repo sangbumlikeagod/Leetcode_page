@@ -160,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3321-type-of-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3321-type-of-triangle) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3430-count-days-without-meetings) |
@@ -333,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2465-shifting-letters-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2465-shifting-letters-ii) |
 | [2529-range-product-queries-of-powers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2529-range-product-queries-of-powers) |
 | [2915-count-of-interesting-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2915-count-of-interesting-subarrays) |
+| [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3427-special-array-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3639-zero-array-transformation-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3639-zero-array-transformation-i) |

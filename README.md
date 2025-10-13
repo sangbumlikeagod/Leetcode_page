@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1396-count-servers-that-communicate) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [0900-reordered-power-of-2](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0900-reordered-power-of-2) |
 | [1018-largest-perimeter-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-largest-perimeter-triangle) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -676,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1302-delete-characters-to-make-fancy-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1502-construct-k-palindrome-strings) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1537-maximum-score-after-splitting-a-string) |

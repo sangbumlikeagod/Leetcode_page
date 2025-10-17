@@ -6,18 +6,10 @@ class Solution {
         Map<Integer, Integer> maps = new HashMap<>();
         for (int i = 0; i < n; i++)
         {
-            // while (nums[i] < 0)
-            // {
-            //     nums[i] += value;
-            // }
             if (nums[i] < 0)
             {
-                // System.out.println(nums[i] / value + " " + nums[i] % value + " " + ((nums[i] / value) - 1));
                 nums[i] -= ((nums[i] / value) - 1) * value;
-                // System.out.println(nums[i] + " " + nums[i] % value);
-                // System.out.println(nums[i]);
             }
-
             int next = maps.get(nums[i] % value) != null ? maps.get(nums[i] % value) + 1 : 1;
             maps.put((nums[i] + value) % value, next);
         }
@@ -25,7 +17,6 @@ class Solution {
 
         while (true)
         {
-            
             if (maps.get(start) != null && maps.get(start) != 0)
             {
                 maps.put(Integer.valueOf(start), maps.get(start) - 1);

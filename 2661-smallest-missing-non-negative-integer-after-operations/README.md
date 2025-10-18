@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/?envType=daily-question&envId=2025-10-16">2661. Smallest Missing Non-negative Integer After Operations</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and an integer <code>value</code>.</p>
+<h2><a href="https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations">2661. Smallest Missing Non-negative Integer After Operations</a></h2><h3>Medium</h3><hr><p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and an integer <code>value</code>.</p>
 
 <p>In one operation, you can add or subtract <code>value</code> from any element of <code>nums</code>.</p>
 

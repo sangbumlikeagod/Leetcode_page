@@ -41,17 +41,12 @@ class Solution {
             UnionFind.union(grids[connection[0]], grids[connection[1]]);
         }
 
-        // for (int i = 1; i <= c; i++)
-        // {
-        //     System.out.println(grids[i].find().val);
-        // }
 
         HashMap<Integer, ArrayList<Integer>> maps = new HashMap<>();
         HashMap<Integer, Integer> indexMaps = new HashMap<>();
         int[] onOff = new int[c + 1];
         for (int i = 1; i <= c; i++)
         {
-            // System.out.println(grids[i].find().val);
             if (!maps.containsKey(grids[i].find().val))
             {
                 maps.put(grids[i].find().val, new ArrayList<>());

@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Hash Table
 |  |
 | ------- |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3797-design-spreadsheet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3856-maximum-weighted-k-edge-path) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Bit Manipulation
 |  |
@@ -690,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -847,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3856-maximum-weighted-k-edge-path) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -950,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Memoization
 |  |
 | ------- |
@@ -991,6 +996,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3058-maximum-number-of-k-divisible-components](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Eulerian Circuit
 |  |
 | ------- |
@@ -1056,6 +1062,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Trie
 |  |
 | ------- |
@@ -1090,6 +1097,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2793-count-the-number-of-complete-components) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3863-power-grid-maintenance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3863-power-grid-maintenance) |
 ## Topological Sort
 |  |
 | ------- |

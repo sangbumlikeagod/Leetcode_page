@@ -26,11 +26,6 @@ public:
     }
     
     long long get(){
-        // for (auto arg : this -> largeKitkat)
-        // {
-        //     cout << "( " << arg.first << ", " << arg.second << " )\t";
-        // }
-        // cout << '\n';
         return this->res;
     }
 private:
@@ -47,7 +42,6 @@ private:
                 
                 pair<int, int> erasy = *largeKitkat.begin();
                 this->res -= (long long) erasy.first * erasy.second;
-                // cout<< '\t' << erasy.first << ' ' << erasy.second << '\n';
                 largeKitkat.erase(erasy);
                 smallKitkat.insert(erasy);
             }
@@ -61,14 +55,7 @@ private:
 
         // large에서 빼야한다면.
         if (pairD >= *largeKitkat.begin())
-        {
-            // for (auto arg : this -> smallKitkat)
-            // {
-            //     cout << "\t( " << arg.first << ", " << arg.second << " )\t";
-            // }
-            // cout << '\n';
-
-            
+        {   
             largeKitkat.erase(pairD);
             this->res -= (long long) pairD.first * pairD.second;
             // small이 비어있지 않으면 하나 다시 넘겨준다.

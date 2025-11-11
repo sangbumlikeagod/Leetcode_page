@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
+| [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
 | [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
@@ -713,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
 | [0467-unique-substrings-in-wraparound-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0467-unique-substrings-in-wraparound-string) |
+| [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |
 | [0678-valid-parenthesis-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0678-valid-parenthesis-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
@@ -872,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0467-unique-substrings-in-wraparound-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0467-unique-substrings-in-wraparound-string) |
+| [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0646-maximum-length-of-pair-chain](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0646-maximum-length-of-pair-chain) |
 | [0651-4-keys-keyboard](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0651-4-keys-keyboard) |

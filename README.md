@@ -94,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
 | [2107-find-unique-binary-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2107-find-unique-binary-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2145-grid-game) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
@@ -501,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -553,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
@@ -599,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2180-maximum-number-of-tasks-you-can-assign) |

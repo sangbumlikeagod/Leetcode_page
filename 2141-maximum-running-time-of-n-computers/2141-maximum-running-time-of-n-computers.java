@@ -1,57 +1,28 @@
-
 class Solution {
-    private int binarySearch(long target, long[] prefixSum){
-        int i = 0, j = prefixSum.length;
-        while(i < j)
-        {
-            int m = (i + j) / 2;
-            if (prefixSum[m] < target)
-            {
-                // 얘는 답일 수 없음
-                i = m + 1;
-            }
-            else
-            {
-                j = m;
-            }
-        }
-        return i;
-    }
-
-
     public long maxRunTime(int n, int[] batteries) {
-        long maxi = 0;
-        for (int battery : batteries)
-        {  
-            maxi += battery;
-        }
-        maxi /= n;
-        long mini = 1;
-
-        // for (int i = bl - 1; i >= 0; i--)
-        // {
-        //     prefixSum[bl - i] = prefixSum[bl - i - 1] + batteries[i];
-        // }
-        while (mini < maxi)
+        List<Integer> lsts = Arrays.stream(batteries).boxed()
+            .sorted(Comparator.reverseOrder())
+            .toList();
+        int bl = batteries.length;
+        long remains = 0;
+        for (int i = n; i < bl; i++)
         {
-            long middle = (mini + maxi) / 2 + (mini + maxi) % 2;
-            long tmp = 0;
-            for (int batterry : batteries)
+            remains += lsts.get(i);
+        }
+        // System.out.println(remains + " " + lsts.get(0)  + " " );
+        for (int i = n - 1; i > 0; i--)
+        {
+            long weNeed = (lsts.get(i - 1) - lsts.get(i)) * (n - i);
+            if (weNeed <= remains)
             {
-                tmp += Math.min(middle, batterry);
-            }
-            if (tmp >= (n * middle))
-            {
-                mini = middle;
+                remains -= weNeed;
             }
             else
             {
-                maxi = middle - 1;
+                return lsts.get(i) + (remains / (n - i));
             }
         }
-        return mini;
-        
-
-
+        // System.out.println(remains + " " + batteries[0]  + "" );
+        return lsts.get(0) + (remains / n);
     }
 }

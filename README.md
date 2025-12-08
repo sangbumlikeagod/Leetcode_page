@@ -457,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [1925-count-square-sum-triples](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1925-count-square-sum-triples) |
 | [2050-count-good-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2050-count-good-numbers) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2202-sum-of-k-mirror-numbers) |
@@ -1189,6 +1190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1656-count-good-triplets) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [1925-count-square-sum-triples](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1925-count-square-sum-triples) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2174-next-greater-numerically-balanced-number) |

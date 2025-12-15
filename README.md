@@ -199,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3583-count-special-triplets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3606-coupon-code-validator](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3583-count-special-triplets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3583-count-special-triplets) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3606-coupon-code-validator](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3606-coupon-code-validator) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3625-count-number-of-trapezoids-ii) |
@@ -652,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3433-count-mentions-per-user](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3433-count-mentions-per-user) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3531-count-covered-buildings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3606-coupon-code-validator) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -832,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3606-coupon-code-validator](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3606-coupon-code-validator) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |

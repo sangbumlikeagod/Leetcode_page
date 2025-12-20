@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0940-fruit-into-baskets) |
+| [0944-delete-columns-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [1018-largest-perimeter-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-largest-perimeter-triangle) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-binary-prefix-divisible-by-5) |
@@ -783,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
+| [0944-delete-columns-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1093-recover-a-tree-from-preorder-traversal) |

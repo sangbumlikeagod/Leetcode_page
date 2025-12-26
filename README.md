@@ -397,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2358-number-of-ways-to-split-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2358-number-of-ways-to-split-array) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2465-shifting-letters-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2465-shifting-letters-ii) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2529-range-product-queries-of-powers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2625-increment-submatrices-by-one) |
 | [2915-count-of-interesting-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2915-count-of-interesting-subarrays) |
@@ -837,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2465-shifting-letters-ii) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2887-sort-vowels-in-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2887-sort-vowels-in-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |

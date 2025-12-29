@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
 | [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
+| [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0797-rabbits-in-forest) |
 | [0900-reordered-power-of-2](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0900-reordered-power-of-2) |
@@ -328,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
+| [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1940-maximum-xor-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1940-maximum-xor-for-each-query) |
@@ -794,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |
 | [0678-valid-parenthesis-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0678-valid-parenthesis-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
 | [0944-delete-columns-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0944-delete-columns-to-make-sorted) |
@@ -1024,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0679-24-game) |
+| [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
 | [1160-letter-tile-possibilities](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1160-letter-tile-possibilities) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |

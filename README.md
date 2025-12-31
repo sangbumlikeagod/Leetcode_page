@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1134-shortest-distance-to-target-color](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1134-shortest-distance-to-target-color) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1176-diet-plan-performance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1176-diet-plan-performance) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1293-three-consecutive-odds](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1293-three-consecutive-odds) |
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0867-new-21-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0940-fruit-into-baskets) |
+| [1176-diet-plan-performance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1176-diet-plan-performance) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1755-defuse-the-bomb) |

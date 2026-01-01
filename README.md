@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
+| [0066-plus-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
 | [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0066-plus-one) |
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |

@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
+| [1390-four-divisors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1390-four-divisors) |
 | [1396-count-servers-that-communicate](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1396-count-servers-that-communicate) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
@@ -475,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-largest-perimeter-triangle) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
+| [1390-four-divisors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1390-four-divisors) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |

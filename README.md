@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1940-maximum-xor-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1940-maximum-xor-for-each-query) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1972-rotating-the-box](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1972-rotating-the-box) |
+| [1975-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1975-maximum-matrix-sum) |
 | [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
 | [2048-build-array-from-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -604,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1917-maximum-average-pass-ratio](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1975-maximum-matrix-sum) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2141-maximum-running-time-of-n-computers) |
@@ -900,6 +902,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1876-map-of-highest-peak) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1972-rotating-the-box](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1972-rotating-the-box) |
+| [1975-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1975-maximum-matrix-sum) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
 | [2145-grid-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2145-grid-game) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2244-number-of-laser-beams-in-a-bank) |

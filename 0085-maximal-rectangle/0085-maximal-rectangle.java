@@ -12,11 +12,6 @@ class Solution {
                 }
          }
 
-        // for (int i = 1; i <= m; i++)
-        //     {
-        //         System.out.println(Arrays.toString(prefixHeights[i]));
-        //     }
-
         int answer = 0;
 
 
@@ -29,7 +24,6 @@ class Solution {
                     int myIndex = j;
                     while (monoStack.isEmpty() == false && monoStack.peek()[1] >= prefixHeights[i][j])
                         {
-                            // System.out.println(i +" 열" + monoStack.peek()[0] + "칸" +j+ " 에게 이렇게 죽다");
                             maxValue = Math.max(maxValue, monoStack.peek()[1] * (j - monoStack.peek()[0])); 
                             myIndex = monoStack.peek()[0];
                             monoStack.pop();
@@ -45,18 +39,15 @@ class Solution {
                 while (monoStack.isEmpty() == false)
                 {
                     maxValue = Math.max(maxValue, monoStack.peek()[1] * (n - monoStack.peek()[0]));
-                    // System.out.println(i +" 열" + monoStack.peek()[0] + "칸" + n + "에게 이렇게 죽다");
                     monoStack.pop();
                 }
 
                 monoStack = new Stack<>();
-                // System.out.println("꺼꿀로");
                 for (int j = n - 1; j >= 0; j--)
                 {
                     int myIndex = j;
                     while (monoStack.isEmpty() == false && monoStack.peek()[1] > prefixHeights[i][j])
                     {
-                        // System.out.println(i +" 열" + monoStack.peek()[0] + "칸 이렇게 죽다");
                         maxValue = Math.max(maxValue, monoStack.peek()[1] * (monoStack.peek()[0] - j));
                         myIndex = monoStack.peek()[0];
                         monoStack.pop();
@@ -69,13 +60,11 @@ class Solution {
                 while (monoStack.isEmpty() == false)
                 {
                     maxValue = Math.max(maxValue, monoStack.peek()[1] * (monoStack.peek()[0]));
-                    // System.out.println(i +" 열" + monoStack.peek()[0] + "칸 이렇게 죽다");
                     monoStack.pop();
 
                 }
                 
                 answer = Math.max(answer, maxValue);
-                // System.out.println(maxValue);
             }
         return answer;
         

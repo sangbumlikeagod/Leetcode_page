@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
+| [0085-maximal-rectangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
@@ -725,6 +726,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0085-maximal-rectangle) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
 | [0678-valid-parenthesis-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0678-valid-parenthesis-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
@@ -746,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0085-maximal-rectangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0085-maximal-rectangle) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [1159-smallest-subsequence-of-distinct-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1159-smallest-subsequence-of-distinct-characters) |
@@ -890,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
+| [0085-maximal-rectangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0085-maximal-rectangle) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
@@ -983,6 +987,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0085-maximal-rectangle) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
 | [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |

@@ -259,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0073-set-matrix-zeroes) |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
+| [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 | [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
@@ -1277,6 +1278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
@@ -1367,6 +1369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 ## Probability and Statistics
@@ -1392,4 +1395,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->

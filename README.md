@@ -212,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3531-count-covered-buildings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3531-count-covered-buildings) |
 | [3548-find-the-count-of-good-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -807,6 +809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -966,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3433-count-mentions-per-user](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3447-clear-digits) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -1226,6 +1230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2434-design-a-number-container-system) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3791-fruits-into-baskets-iii) |
@@ -1372,6 +1377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Probability and Statistics
 |  |
 | ------- |
@@ -1396,4 +1402,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 <!---LeetCode Topics End-->

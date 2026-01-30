@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -891,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2887-sort-vowels-in-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2887-sort-vowels-in-a-string) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3243-count-the-number-of-powerful-integers) |
@@ -1063,6 +1065,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2562-count-ways-to-build-good-strings) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -1138,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Depth-First Search
@@ -1250,6 +1254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0386-lexicographical-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2079-delete-duplicate-folders-in-system) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
 |  |
@@ -1415,4 +1420,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2976-minimum-cost-to-convert-string-i) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 <!---LeetCode Topics End-->

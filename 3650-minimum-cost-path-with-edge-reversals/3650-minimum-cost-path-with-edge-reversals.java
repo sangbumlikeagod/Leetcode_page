@@ -25,25 +25,12 @@ class Solution {
             );
         }
 
-        // for (int i = 0; i < n ; i++)
-        // {
-        //     System.out.println(i);
-        //     for (Integer next : Costs[i].keySet())
-        //     {
-        //         System.out.println("\t" + next + " " + Costs[i].get(next));
-        //     }
-        //     System.out.println();
-        // }
-
-        // System.out.println(Costs);
-
         pq.add(List.of(0, 0));
         while (!pq.isEmpty())
         {
             List<Integer> next = pq.poll();
             int cost = next.get(0);
             int node = next.get(1);
-            // System.out.println(node + " " + cost);
 
             if (visited[node] == 1)
             {
@@ -58,10 +45,8 @@ class Solution {
             visited[node] = 1;
             for (Integer nnext : Costs[node].keySet())
             {
-                // System.out.println("\t" + nnext + " " + cost);
                 if (visited[nnext] == 0)
                 {
-                    // System.out.println(Costs[node].get(nnext) + " sex");
                     pq.add(
                         List.of(cost + Costs[node].get(nnext), nnext)
                     );

@@ -1,5 +1,4 @@
 class NetDecreasing {
-    private Integer ldx;
     private Integer rdx;
 
     private Long sum;
@@ -18,40 +17,31 @@ class NetDecreasing {
         return sum;
     }
     public NetDecreasing(int i, int[] nums) {
-        ldx = i;
         rdx = i;
         sum =  (long) nums[i];
     }
 }
 
 class NetIncreasing {
-    private Integer ldx;
-    private Integer rdx;
     private Long totalSum;
-    private Long totalMinSum;
     private Long totalMaxSum;
     private List<Long> totalMinSumSeries;
 
     public NetIncreasing(int i, int i_1, int[] nums)
     {
-        ldx = i;
         totalSum = (long) nums[i] + nums[i_1];
-
         totalMaxSum = totalSum;  
-        totalMinSum = (long) Math.min(Math.min(0, nums[i]), nums[i] + nums[i_1]);
         totalMinSumSeries = new ArrayList<>();
 
         totalMinSumSeries.add((long) 0);
         totalMinSumSeries.add(Math.min(totalMinSumSeries.getLast(), nums[i_1]));
         totalMinSumSeries.add(Math.min(totalMinSumSeries.getLast(), totalSum));
-        // System.out.println("created" + totalSum + " Mins" + totalMinSumSeries);
     }
     public void addElements(int x)
     {
         this.totalSum += x;
         this.totalMaxSum = Math.max(this.totalMaxSum, totalSum);
         this.totalMinSumSeries.add(Math.min(totalSum, this.totalMinSumSeries.getLast()));
-        // System.out.println("updated" + this.totalSum + " Mins" + this.totalMinSumSeries);
     }
 
 
@@ -71,18 +61,23 @@ class NetIncreasing {
 
 
 class Solution {
+    private Long getSectionSum(NetDecreasing prevNetDecreasing, NetIncreasing prevNetIncreasing, NetIncreasing currentNetIncreasing)
+    {
+        Long tmp = prevNetIncreasing.getRightMaximum();
+        tmp += currentNetIncreasing.getLeftMaximum();
+        tmp += prevNetDecreasing.getMax();
+        return tmp;
+    }
+
     public long maxSumTrionic(int[] nums) {
 
         NetDecreasing currentNetDecreasing = null;
         NetDecreasing prevNetDecreasing = null;
-
         NetIncreasing prevNetIncreasing = null;
         NetIncreasing currentNetIncreasing = null;
         int n = nums.length;
         long answer = (long) -1e15;
 
-
- 
         for (int i = 1; i < n; i++)
         {
             // 이전인덱스와의 차이부터 구함
@@ -96,7 +91,6 @@ class Solution {
                 }
                 else
                 {
-                    // System.out.println("netIncrease " + i);
                     if (currentNetDecreasing != null)
                     {
                         currentNetDecreasing.subLast(nums);
@@ -115,22 +109,13 @@ class Solution {
                 }
                 else
                 {
-                    // System.out.println("netDecrease " + i);
                     if (
                         prevNetIncreasing != null &&
                         prevNetDecreasing != null &&
                         currentNetIncreasing != null
                        )
                     {
-                        // System.out.println("found " + i);
-                        Long tmp = prevNetIncreasing.getRightMaximum();
-                        // System.out.println("prev right Max " + tmp);
-
-                        tmp += currentNetIncreasing.getLeftMaximum();
-                        // System.out.println("current left Max " + tmp);
-                        tmp += prevNetDecreasing.getMax();
-                        // System.out.println("prev Decrease static Max " + tmp);
-                        answer = Math.max(answer, tmp);
+                        answer = Math.max(answer, Math.max(answer, getSectionSum(prevNetDecreasing, prevNetIncreasing, currentNetIncreasing)));
                     }
                     prevNetIncreasing = currentNetIncreasing;
                     currentNetIncreasing = null;
@@ -146,15 +131,7 @@ class Solution {
                         currentNetIncreasing != null
                        )
                     {
-                        // System.out.println("found " + i);
-                        Long tmp = prevNetIncreasing.getRightMaximum();
-                        // System.out.println("prev right Max " + tmp);
-
-                        tmp += currentNetIncreasing.getLeftMaximum();
-                        // System.out.println("current left Max " + tmp);
-                        tmp += prevNetDecreasing.getMax();
-                        // System.out.println("prev Decrease static Max " + tmp);
-                        answer = Math.max(answer, tmp);
+                        answer = Math.max(answer, Math.max(answer, getSectionSum(prevNetDecreasing, prevNetIncreasing, currentNetIncreasing)));
                     }
                 currentNetDecreasing = null;
                 currentNetIncreasing = null;
@@ -169,13 +146,8 @@ class Solution {
             currentNetIncreasing != null
             )
         {
-            Long tmp = prevNetIncreasing.getRightMaximum();
-            // System.out.println("prev right Max " + tmp);
-            tmp += currentNetIncreasing.getLeftMaximum();
-            // System.out.println("current left Max " + tmp);
-            tmp += prevNetDecreasing.getMax();
-            // System.out.println("prev Decrease static Max " + tmp);
-            answer = Math.max(answer, tmp);
+            
+            answer = Math.max(answer, getSectionSum(prevNetDecreasing, prevNetIncreasing, currentNetIncreasing));
         }
 
 

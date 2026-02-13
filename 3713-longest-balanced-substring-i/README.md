@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/longest-balanced-substring-i/?envType=daily-question&envId=2026-02-12">4055. Longest Balanced Substring I</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code> consisting of lowercase English letters.</p>
+<h2><a href="https://leetcode.com/problems/longest-balanced-substring-i">4055. Longest Balanced Substring I</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code> consisting of lowercase English letters.</p>
 
 <p>A <strong><span data-keyword="substring-nonempty">substring</span></strong> of <code>s</code> is called <strong>balanced</strong> if all <strong>distinct</strong> characters in the <strong>substring</strong> appear the <strong>same</strong> number of times.</p>
 

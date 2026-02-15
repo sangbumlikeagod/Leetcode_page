@@ -365,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
 | [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
@@ -499,6 +500,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
@@ -854,6 +856,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
+| [0067-add-binary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
@@ -978,6 +981,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0498-diagonal-traverse) |
 | [1642-water-bottles](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1642-water-bottles) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2021-remove-all-occurrences-of-a-substring) |

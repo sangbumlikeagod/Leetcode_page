@@ -750,6 +750,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
 | [0277-find-the-celebrity](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0277-find-the-celebrity) |
 | [0611-valid-triangle-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0611-valid-triangle-number) |
+| [0696-count-binary-substrings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0696-count-binary-substrings) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -864,6 +865,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0467-unique-substrings-in-wraparound-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0467-unique-substrings-in-wraparound-string) |
 | [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |
 | [0678-valid-parenthesis-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0678-valid-parenthesis-string) |
+| [0696-count-binary-substrings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |

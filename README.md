@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3719-longest-balanced-subarray-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3719-longest-balanced-subarray-i) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3797-design-spreadsheet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3827-implement-router) |

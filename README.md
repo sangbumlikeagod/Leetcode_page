@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2478-longest-nice-subarray](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2478-longest-nice-subarray) |
 | [2479-meeting-rooms-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2479-meeting-rooms-iii) |
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2529-range-product-queries-of-powers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2529-range-product-queries-of-powers) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2533-bitwise-xor-of-all-pairings) |
@@ -974,6 +975,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2465-shifting-letters-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2465-shifting-letters-ii) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2839-check-if-strings-can-be-made-equal-with-operations-i) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |

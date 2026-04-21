@@ -1,66 +1,83 @@
 class Solution {
-
-    private int binarySearch(ArrayList<ArrayList<Integer>> stacks, int value)
-    {
-        int l = 0, r = stacks.size() - 1;
-        // value보다 같거나 큰놈 구하는거지 
-        while (l < r)
-        {
-            int m = (l + r) / 2;
-            if (stacks.get(m).get(1) < value)
+    public int maxArea(int[] height) {
+        List<List<Integer>> lst = new ArrayList<>();
+        int l = height.length;
+        for (int i = 0; i < l; i++)
             {
-                l = m + 1;
-            }        
+                lst.add(Arrays.asList(height[i], i));
+            }
+
+        Collections.sort(lst, (a, b)->{
+            if (a.get(0) != b.get(0))
+            {
+                return b.get(0) - a.get(0);
+            }
             else
             {
-                r = m;
+                return a.get(1) - b.get(1);
             }
-        }
-           
-        return stacks.get(l).get(1) >= value ? stacks.get(l).get(0) : -1;
-        // return -1;
-    }
-    public int maxArea(int[] height) {
-        ArrayList<ArrayList<Integer>> stacks = new ArrayList<>();
-        ArrayList<ArrayList<Integer>> stacks2 = new ArrayList<>();
+        });
+
+        // System.out.println(lst);
+
+        List<List<Integer>> ansLst = new ArrayList<>();
         int answer = 0;
-        for (int i = 0; i < height.length; i++)
+        for (int i = 0; i < l; i++)
         {
-            if (!stacks.isEmpty())
+            // 바로앞의놈이 가장 인덱스가 앞이란걸 보장하도록
+            while (!ansLst.isEmpty() && ansLst.get(ansLst.size() - 1).get(1) > lst.get(i).get(1))
             {
-                // 얘보다 작거나 같은놈이 없을 수도 있다
-                int x = binarySearch(stacks, height[i]);
-                // System.out.println(x + " " + i);
+                answer = Math.max(answer, (ansLst.get(ansLst.size() - 1).get(1) - lst.get(i).get(1)) * lst.get(i).get(0));
+                ansLst.remove(ansLst.size() - 1);
+            }
+            if (!ansLst.isEmpty())
+            {
+                answer = Math.max(answer, (lst.get(i).get(1) - ansLst.get(ansLst.size() - 1).get(1)) * lst.get(i).get(0));
                 
-                // System.out.println(stacks);
-                if (x != -1)
-                {
-                    answer = Math.max(answer, (i - x) * height[i]);
-                }
             }
-            if (stacks.isEmpty() || stacks.get(stacks.size() - 1).get(1) < height[i])
+            if (ansLst.isEmpty())
             {
-                stacks.add(new ArrayList<>(Arrays.asList(i, height[i])));
+                ansLst.add(lst.get(i));
             }
+            // System.out.println(i + " " +  ansLst);
         }
 
-        for (int i = height.length - 1; i >= 0; i--)
+
+        Collections.sort(lst, (a, b)->{
+            if (a.get(0) != b.get(0))
+            {
+                return b.get(0) - a.get(0);
+            }
+            else
+            {
+                return b.get(1) - a.get(1);
+            }
+        });
+        // System.out.println(lst);
+        ansLst = new ArrayList<>();
+
+
+
+        for (int i = 0; i < l; i++)
         {
-            if (!stacks2.isEmpty())
+            // 바로앞의놈이 가장 인덱스가 앞이란걸 보장하도록
+            while (!ansLst.isEmpty() && ansLst.get(ansLst.size() - 1).get(1) < lst.get(i).get(1))
             {
-                // 얘보다 작거나 같은놈이 없을 수도 있다
-                int x = binarySearch(stacks2, height[i]);
-                // System.out.println(x + " " + i);
-                if (x != -1)
-                {
-                    answer = Math.max(answer, (x - i) * height[i]);
-                }
+                answer = Math.max(answer, (lst.get(i).get(1) - ansLst.get(ansLst.size() - 1).get(1)) * lst.get(i).get(0));
+                ansLst.remove(ansLst.size() - 1);
             }
-            if (stacks2.isEmpty() || stacks2.get(stacks2.size() - 1).get(1) < height[i])
+            if (!ansLst.isEmpty())
             {
-                stacks2.add(new ArrayList<>(Arrays.asList(i, height[i])));
+                answer = Math.max(answer, (ansLst.get(ansLst.size() - 1).get(1) - lst.get(i).get(1)) * lst.get(i).get(0));
+                
             }
+            if (ansLst.isEmpty())
+            {
+                ansLst.add(lst.get(i));
+            }
+            // System.out.println(i + " " +  ansLst);
         }
+        
         return answer;
     }
 }

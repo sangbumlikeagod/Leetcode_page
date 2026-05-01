@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0120-triangle) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0396-rotate-function) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0456-132-pattern](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0456-132-pattern) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0396-rotate-function) |
 | [0651-4-keys-keyboard](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0651-4-keys-keyboard) |
 | [0679-24-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0679-24-game) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -1162,6 +1164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
 | [0337-house-robber-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0337-house-robber-iii) |
 | [0368-largest-divisible-subset](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0416-partition-equal-subset-sum) |
 | [0467-unique-substrings-in-wraparound-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0467-unique-substrings-in-wraparound-string) |
 | [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |

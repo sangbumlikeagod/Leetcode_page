@@ -824,6 +824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
+| [0061-rotate-list](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0075-sort-colors) |
 | [0277-find-the-celebrity](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0277-find-the-celebrity) |
 | [0611-valid-triangle-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0611-valid-triangle-number) |
@@ -1564,6 +1565,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0061-rotate-list](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |

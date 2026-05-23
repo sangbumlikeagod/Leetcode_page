@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         int revCount = 0;
         for (int i = 0; i < n - 1; i++)
-        {
+        { 
             if (nums[i] > nums[i + 1])
             {
                 revCount++;

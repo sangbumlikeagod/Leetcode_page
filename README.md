@@ -599,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0900-reordered-power-of-2) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-largest-perimeter-triangle) |
+| [1056-confusing-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1056-confusing-number) |
 | [1266-minimum-time-visiting-all-points](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1266-minimum-time-visiting-all-points) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
 | [1390-four-divisors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1390-four-divisors) |

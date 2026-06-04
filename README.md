@@ -667,6 +667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3783-mirror-distance-of-an-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3783-mirror-distance-of-an-integer) |
@@ -1288,6 +1289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-trionic-array-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3640-trionic-array-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3856-maximum-weighted-k-edge-path) |
 ## Backtracking
 |  |
@@ -1571,6 +1573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3548-equal-sum-grid-partition-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Combinatorics
 |  |

@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2179-most-beautiful-item-for-each-query](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2215-finding-3-digit-even-numbers) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2107-find-unique-binary-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2107-find-unique-binary-string) |
 | [2169-simple-bank-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2169-simple-bank-system) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2174-next-greater-numerically-balanced-number) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2215-finding-3-digit-even-numbers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -1431,6 +1433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -1453,6 +1456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [2196-create-binary-tree-from-descriptions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Binary Indexed Tree

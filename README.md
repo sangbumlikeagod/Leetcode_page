@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2144-maximum-difference-between-increasing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2145-grid-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2145-grid-game) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2164-two-best-non-overlapping-events](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2164-two-best-non-overlapping-events) |
 | [2169-simple-bank-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2169-simple-bank-system) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -891,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1861-rotating-the-box) |
 | [1972-rotating-the-box](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1972-rotating-the-box) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2232-adding-spaces-to-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2320-find-all-k-distant-indices-in-an-array) |
@@ -1168,6 +1170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2069-walking-robot-simulation-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2169-simple-bank-system) |
 | [2211-count-collisions-on-a-road](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2211-count-collisions-on-a-road) |
 | [2232-adding-spaces-to-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2232-adding-spaces-to-a-string) |

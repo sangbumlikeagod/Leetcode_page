@@ -22,9 +22,7 @@ class Solution {
         int answer = 0;
         for (int i = 0; i < n / 2; i++)
         {
-            int ax = lst.remove(n - i - 1);
-            lst.set(i, lst.get(i) + ax);
-            answer = Math.max(answer, lst.get(i));
+            answer = Math.max(answer, lst.get(i) + lst.get(n - i - 1));
         }
         return answer;
     }

@@ -553,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3719-longest-balanced-subarray-i) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
@@ -1316,6 +1317,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3640-trionic-array-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3640-trionic-array-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3753-total-waviness-of-numbers-in-range-ii) |

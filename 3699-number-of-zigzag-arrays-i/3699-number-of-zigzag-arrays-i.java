@@ -22,7 +22,6 @@ class Solution {
     }
     public int zigZagArrays(int n, int l, int r) {
         int ll = r - l + 1;
-        // System.out.println(ll);
         int[][][] dp = new int[n + 1][2][ll + 2];
         int answer = 0;
 
@@ -35,9 +34,6 @@ class Solution {
         dp[0][1][0] = 0;
         prefixSum(dp[0][0], false);
         prefixSum(dp[0][1], true);
-        // System.out.println(Arrays.toString(dp[0][0]));
-        // System.out.println(Arrays.toString(dp[0][1]));
-        // System.out.println(" ");
         // 0은 prefix상 존재하는것이고 1이 최저다 
         for (int i = 0; i < n; i++)
         {
@@ -45,8 +41,6 @@ class Solution {
             for (int k = 2; k <= ll; k++)
             {
                 int mein = dp[i][0][k];
-                // if (mein < 0) {mein += MODULO;}
-
                 // 다음 하락인 애들한테 
                 dp[i + 1][1][k - 1] += mein;
                 dp[i + 1][1][k - 1] %= MODULO;
@@ -55,21 +49,12 @@ class Solution {
             for (int k = 0; k < ll; k++)
             {
                 int mein = dp[i][1][k];
-                // if (mein < 0) {mein += MODULO;}
                 // 상승할 애들한테
                 dp[i + 1][0][k + 1] += mein;
                 dp[i + 1][0][k + 1] %= MODULO;
             }
-            // System.out.println(Arrays.toString(dp[i + 1][0]));
-            // System.out.println(Arrays.toString(dp[i + 1][1]));
-            // System.out.println("\n");
-
             prefixSum(dp[i + 1][0], false);
             prefixSum(dp[i + 1][1], true);
-
-            // System.out.println(Arrays.toString(dp[i + 1][0]));
-            // System.out.println(Arrays.toString(dp[i + 1][1]));
-            // System.out.println("\n");
         }
         
 

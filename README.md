@@ -353,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1264-maximum-number-of-words-you-can-type](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1345-jump-game-iv](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -569,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0940-fruit-into-baskets) |
 | [1176-diet-plan-performance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1176-diet-plan-performance) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1755-defuse-the-bomb) |
@@ -1044,6 +1046,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |

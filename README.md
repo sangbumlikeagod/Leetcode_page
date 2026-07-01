@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2784-check-if-array-is-good](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2784-check-if-array-is-good) |
 | [2792-neighboring-bitwise-xor](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2792-neighboring-bitwise-xor) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2915-count-of-interesting-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2915-count-of-interesting-subarrays) |
@@ -734,6 +735,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2699-count-the-number-of-fair-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -997,6 +999,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -1168,6 +1171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2685-first-completely-painted-row-or-column](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2685-first-completely-painted-row-or-column) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2764-maximum-number-of-fish-in-a-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3225-maximum-score-from-grid-operations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3225-maximum-score-from-grid-operations) |
@@ -1381,6 +1385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2793-count-the-number-of-complete-components) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -1725,4 +1730,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1559-detect-cycles-in-2d-grid) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->

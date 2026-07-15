@@ -694,6 +694,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -831,6 +832,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2716-prime-subtraction-operation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2716-prime-subtraction-operation) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Sorting
 |  |

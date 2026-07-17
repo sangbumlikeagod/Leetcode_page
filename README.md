@@ -291,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3623-count-number-of-trapezoids-i) |
@@ -766,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3488-closest-equal-element-queries](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3488-closest-equal-element-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3643-zero-array-transformation-ii) |
@@ -1036,6 +1038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
@@ -1360,6 +1363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3640-trionic-array-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3640-trionic-array-ii) |
@@ -1443,6 +1447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -1619,6 +1624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1558-course-schedule-iv](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1558-course-schedule-iv) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 ## Design
 |  |
 | ------- |
@@ -1769,6 +1775,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Union-Find
 |  |

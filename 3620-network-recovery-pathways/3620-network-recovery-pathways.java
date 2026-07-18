@@ -10,29 +10,22 @@ class Solution {
         while (!pq.isEmpty())
         {
             long[] next = pq.poll();
-            // System.out.println("-"+ Arrays.toString(next));
             long val = next[0]; int nd = (int) next[1];
             if (val > k) continue; 
             if (visited[nd] < val) continue;
-
-
             if (nd == n - 1) 
             {
-                // System.out.println(Arrays.toString(next) + "sex");
                 return true;            
             }
             
             for (int[] nn : adjList.get(nd))
             {
-                // System.out.println(Arrays.toString(nn));
                 if (nn[1] < l) continue;
-                // System.out.println(Arrays.toString(nn) + visited[nn[0]]);
                 if (
                         val + nn[1] <= k && 
                         val + nn[1] < visited[nn[0]]
                     )
                 {
-                    // System.out.println(Arrays.toString(nn));
                     visited[nn[0]] = val + nn[1];
                     pq.add(new long[] {val + nn[1], (long) nn[0]});
                 }
@@ -60,13 +53,10 @@ class Solution {
             }
         }
         Arrays.sort(edges, (a, b) -> a[2] - b[2]);
-        // dijkstra(n, k, 0);
         int l = 0, r = edges.length - 1;
         while (l < r)
         {
-            // int m = (l + r) / 2;
             int m = (l + r) / 2 + (l + r) % 2;
-            // System.out.println(l +"  "+ m + "  " + r + " " + edges[m][2]);
             if (dijkstra(n, k, edges[m][2]))
             {
                 l = m;

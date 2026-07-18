@@ -4,7 +4,7 @@ class Solution {
     {
         PriorityQueue<long[]> pq = new PriorityQueue<>((a, b) -> (int) (a[0] - b[0]));
         long[] visited = new long[n];
-        Arrays.fill(visited, (long) 1e15 + 7);
+        Arrays.fill(visited, (long) 1e10 + 7);
         pq.add(new long[] {0, 0});
         visited[0] = 0;
         while (!pq.isEmpty())
@@ -66,6 +66,6 @@ class Solution {
                 r = m - 1;
             }
         }
-        return dijkstra(n, k, edges[l][2])?  edges[l][2] : -1;
+        return dijkstra(n, k, edges[l][2]) ? edges[l][2] : -1;
     }
 }

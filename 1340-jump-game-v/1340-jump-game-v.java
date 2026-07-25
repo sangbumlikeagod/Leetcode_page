@@ -1,22 +1,43 @@
 class Solution {
     List<List<Integer>> adjLists;
     int[] DP;
-    private Integer dp(int x)
+    int n = 0;
+    private Integer dp(int x, int[] arr, int d)
     {
         int ans = 0;
         if (DP[x] != 0)
         {
             return DP[x];
         }
-        for (int poss : adjLists.get(x))
+
+        for (int j = x - 1; j >= Math.max(0, x - d); j--)
         {
-            ans = Math.max(ans, dp(poss));
+            if (arr[j] < arr[x])
+            {
+                ans = Math.max(dp(j, arr, d), ans);
+            }
+            else
+            {
+                break;
+            }
         }
+        for (int j = x + 1; j <=  Math.min(n - 1, x + d); j++)
+        {
+            if (arr[j] < arr[x])
+            {
+                ans = Math.max(dp(j, arr, d), ans);
+            }
+            else
+            {
+                break;
+            }
+        }
+
         DP[x] = ans + 1;
         return DP[x];
     }
     public int maxJumps(int[] arr, int d) {
-        int n = arr.length;
+        n = arr.length;
         DP = new int[n];
         adjLists = new ArrayList<>();
 
@@ -25,42 +46,12 @@ class Solution {
             adjLists.add(new ArrayList<>());
         }
 
-        for (int i = 0; i < n; i++)
-        {
-            for (int j = i - 1; j >= Math.max(0, i - d); j--)
-            {
-                if (arr[j] < arr[i])
-                {
-                    adjLists.get(i).add(j);
-                }
-                else
-                {
-                    break;
-                }
-            }
-            for (int j = i + 1; j <=  Math.min(n - 1, i + d); j++)
-            {
-                if (arr[j] < arr[i])
-                {
-                    adjLists.get(i).add(j);
-                }
-                else
-                {
-                    break;
-                }
-            }
-        }   
-
-        // for (int i = 0; i < n; i++)
-        // {
-        //     System.out.println(adjLists.get(i));
-        // }
         int answer = 0;
         for (int i = 0; i < n; i++)
         {
             if (DP[i] == 0)
             {
-                dp(i);
+                dp(i, arr, d);
             }
             answer = Math.max(answer, DP[i]);
         }

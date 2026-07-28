@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0758-bold-words-in-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0758-bold-words-in-string) |
 | [0759-set-intersection-size-at-least-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0759-set-intersection-size-at-least-two) |
 | [0780-max-chunks-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
 | [0594-longest-harmonious-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0594-longest-harmonious-subsequence) |
 | [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
+| [0758-bold-words-in-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0758-bold-words-in-string) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0840-magic-squares-in-grid) |
@@ -1090,6 +1092,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0696-count-binary-substrings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
+| [0758-bold-words-in-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0758-bold-words-in-string) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
 | [0944-delete-columns-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0944-delete-columns-to-make-sorted) |
@@ -1529,6 +1532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0758-bold-words-in-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0758-bold-words-in-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1611,6 +1615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0386-lexicographical-numbers) |
+| [0758-bold-words-in-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0758-bold-words-in-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2452-words-within-two-edits-of-dictionary) |

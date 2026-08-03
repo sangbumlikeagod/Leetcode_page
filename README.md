@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1390-four-divisors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1390-four-divisors) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1396-count-servers-that-communicate](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1396-count-servers-that-communicate) |
+| [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1458-max-dot-product-of-two-subsequences) |
@@ -657,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1344-angle-between-hands-of-a-clock](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
 | [1390-four-divisors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1390-four-divisors) |
+| [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
@@ -1368,6 +1370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1301-number-of-paths-with-max-score](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1301-number-of-paths-with-max-score) |
 | [1340-jump-game-v](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1340-jump-game-v) |
+| [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -1806,6 +1809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 | [3462-vowels-game-in-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3462-vowels-game-in-a-string) |
 ## Doubly-Linked List
 |  |
@@ -1831,4 +1835,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Minimax
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->

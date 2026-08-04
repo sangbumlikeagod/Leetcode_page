@@ -324,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3689-maximum-total-subarray-value-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3689-maximum-total-subarray-value-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3719-longest-balanced-subarray-i) |
+| [3731-find-missing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3731-find-missing-elements) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -457,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3678-design-task-manager](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3719-longest-balanced-subarray-i) |
+| [3731-find-missing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3731-find-missing-elements) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
@@ -952,6 +954,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3731-find-missing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3731-find-missing-elements) |
 | [3748-sort-matrix-by-diagonals](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3748-sort-matrix-by-diagonals) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Two Pointers

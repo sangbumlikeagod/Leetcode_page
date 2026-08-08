@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0840-magic-squares-in-grid) |
 | [0854-making-a-large-island](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0854-making-a-large-island) |
 | [0874-walking-robot-simulation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0874-walking-robot-simulation) |
+| [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -652,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0840-magic-squares-in-grid) |
 | [0867-new-21-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0867-new-21-game) |
+| [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [0900-reordered-power-of-2](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0900-reordered-power-of-2) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-largest-perimeter-triangle) |
@@ -1364,6 +1366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0826-soup-servings](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0867-new-21-game) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
+| [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1025-minimum-cost-for-tickets) |
@@ -1816,6 +1819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 | [3462-vowels-game-in-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3462-vowels-game-in-a-string) |
 ## Doubly-Linked List
@@ -1846,9 +1850,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Minimax
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 ## Zero-Sum Game
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->

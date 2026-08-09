@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1063-best-sightseeing-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1063-best-sightseeing-pair) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1134-shortest-distance-to-target-color](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1134-shortest-distance-to-target-color) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1176-diet-plan-performance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1176-diet-plan-performance) |
@@ -554,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -658,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1015-smallest-integer-divisible-by-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1018-largest-perimeter-triangle) |
 | [1056-confusing-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1056-confusing-number) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1266-minimum-time-visiting-all-points](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1266-minimum-time-visiting-all-points) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
@@ -1373,6 +1376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1063-best-sightseeing-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1063-best-sightseeing-pair) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1134-shortest-distance-to-target-color](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1134-shortest-distance-to-target-color) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1170-shortest-common-supersequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1170-shortest-common-supersequence) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1301-number-of-paths-with-max-score](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1301-number-of-paths-with-max-score) |
@@ -1820,6 +1824,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 | [3462-vowels-game-in-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3462-vowels-game-in-a-string) |
 ## Doubly-Linked List
@@ -1851,10 +1856,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
+| [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->

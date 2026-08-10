@@ -1776,6 +1776,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0619-biggest-single-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0619-biggest-single-number) |
 | [0626-exchange-seats](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0626-exchange-seats) |
 | [1075-project-employees-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1075-project-employees-i) |
+| [1107-new-users-daily-count](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1107-new-users-daily-count) |
 | [1135-customers-who-bought-all-products](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1135-customers-who-bought-all-products) |
 | [1179-game-play-analysis-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1179-game-play-analysis-i) |
 | [1214-highest-grade-for-each-student](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1214-highest-grade-for-each-student) |

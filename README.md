@@ -1783,6 +1783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0176-second-highest-salary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0176-second-highest-salary) |
 | [0585-investments-in-2016](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0585-investments-in-2016) |
 | [0608-tree-node](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0608-tree-node) |
+| [0612-shortest-distance-in-a-plane](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0612-shortest-distance-in-a-plane) |
 | [0619-biggest-single-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0619-biggest-single-number) |
 | [0626-exchange-seats](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0626-exchange-seats) |
 | [1075-project-employees-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1075-project-employees-i) |
@@ -1887,4 +1888,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1510-stone-game-iv) |
+## Nearest Pair of Points
+|  |
+| ------- |
+| [0612-shortest-distance-in-a-plane](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0612-shortest-distance-in-a-plane) |
 <!---LeetCode Topics End-->

@@ -651,6 +651,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0002-add-two-numbers) |
 | [0066-plus-one](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
@@ -1765,6 +1766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0002-add-two-numbers) |
 | [0231-power-of-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0231-power-of-two) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [2050-count-good-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2050-count-good-numbers) |
@@ -1816,6 +1818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0002-add-two-numbers) |
 | [0061-rotate-list](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0061-rotate-list) |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |

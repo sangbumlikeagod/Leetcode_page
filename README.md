@@ -742,6 +742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3622-check-divisibility-by-digit-sum-and-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
 | [3623-count-number-of-trapezoids-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3623-count-number-of-trapezoids-i) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3625-count-number-of-trapezoids-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-total-characters-in-string-after-transformations-i) |

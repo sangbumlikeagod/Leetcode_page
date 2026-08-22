@@ -1901,4 +1901,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0612-shortest-distance-in-a-plane](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0612-shortest-distance-in-a-plane) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->

@@ -472,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3719-longest-balanced-subarray-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3719-longest-balanced-subarray-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3731-find-missing-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3731-find-missing-elements) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -562,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Prefix Sum
@@ -891,6 +893,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3689-maximum-total-subarray-value-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Number Theory
@@ -1228,6 +1231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3797-design-spreadsheet](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3797-design-spreadsheet) |
@@ -1760,6 +1764,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3548-equal-sum-grid-partition-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3548-equal-sum-grid-partition-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3713-longest-balanced-substring-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3713-longest-balanced-substring-i) |
+| [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 ## Combinatorics

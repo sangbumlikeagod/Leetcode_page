@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2078-two-furthest-houses-with-different-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2107-find-unique-binary-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2107-find-unique-binary-string) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -862,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1975-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1975-maximum-matrix-sum) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2089-maximum-matrix-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2089-maximum-matrix-sum) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |

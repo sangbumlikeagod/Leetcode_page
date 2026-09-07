@@ -1151,6 +1151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0758-bold-words-in-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0758-bold-words-in-string) |
 | [0768-partition-labels](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0868-push-dominoes) |
+| [0940-distinct-subsequences-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0940-distinct-subsequences-ii) |
 | [0944-delete-columns-to-make-sorted](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0952-word-subsets) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0955-delete-columns-to-make-sorted-ii) |
@@ -1416,6 +1417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0877-stone-game) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0934-bitwise-ors-of-subarrays) |
+| [0940-distinct-subsequences-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0940-distinct-subsequences-ii) |
 | [1025-minimum-cost-for-tickets](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1063-best-sightseeing-pair) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1111-minimum-score-triangulation-of-polygon) |

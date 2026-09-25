@@ -1,6 +1,5 @@
 class Solution:
     def init(self, M, MM, DPKEY):
-        #0, 1, 2, 3, 4를  다 다뤄야하나? 
         self.prefixSumDP = [[None] * 5 for i in range(MM)]
         self.dp_key = DPKEY
 
@@ -38,8 +37,8 @@ class Solution:
     def is_changable(self, challenger, challenger_value, champion, cn):
         # self.idx_to_sorted_indexes 을 활용할 수 있도록 
         # 끝까지 가본 뒤에 확인 가능
-        # 정확히 확정일 떄만 
-        # DP를 통해서 다음 놈들을 찾아야하는데? 
+        # 정확히 확정일 떄만
+        # DP를 통해서 다음 놈들을 찾아야하는데?
         # print(*self.prefixSumDP, sep='\n')
         # print(challenger, challenger_value, champion, cn)
 
@@ -56,16 +55,14 @@ class Solution:
                 return False
         return False
 
-        
     def _sync_index(self, dp_idx, intervals_idx):
         # 초기화가 목적
-        # dp_idx = 실제 값과 일치 
-        # intervals_id, [intervals_idx][1] 이 진짜 인덱스 
-        # main에서는 dp_idx < n만 걸고 return dp_idx, intervals_idx로간다. 
+        # dp_idx = 실제 값과 일치
+        # intervals_id, [intervals_idx][1] 이 진짜 인덱스
+        # main에서는 dp_idx < n만 걸고 return dp_idx, intervals_idx로간다.
         if dp_idx == -1:
             dp_idx += 1
         elif self.indexed_intervals[intervals_idx][1] < self.changeDPIdx(dp_idx):
-            # while self.indexed_intervals[intervals_idx][1] < self.changeDPIdx(dp_idx):
             intervals_idx += 1
         elif self.indexed_intervals[intervals_idx][1] == self.changeDPIdx(dp_idx):
             intervals_idx += 1
@@ -86,7 +83,6 @@ class Solution:
                 r = m - 1
 
         return l
-
 
 
     def _main(self):
@@ -123,10 +119,8 @@ class Solution:
                 # print(query_index)
 
                 my_weight = self.indexed_intervals[intervals_idx][2]
-                
                 # 내 인덱스가 아니라 이전 인덱스 넣기다
                 original_index = self.indexed_intervals[intervals_idx][3]
-                
                 # 0은 전부 None일거니 안전
                 if i != 1 and query_index == -1:
                     continue
@@ -165,13 +159,11 @@ class Solution:
 
 
     def maximumWeight(self, intervals: List[List[int]]) -> List[int]:
-        #일단 인덱스추가하기
         self.indexed_intervals = [
-            [interval[0], interval[1], interval[2], idx] 
+            [interval[0], interval[1], interval[2], idx]
             for idx, interval in enumerate(intervals)
         ]
-        # intervals의 인덱스를  indexed_intervals 인덱스로 바꿀 수 있는 자료구조 
-        self.indexed_intervals.sort(key=lambda x : (x[1], x[0], x[3]))
+        self.indexed_intervals.sort(key=lambda x : x[1])
         self.idx_to_sorted_indexes = [0] * len(self.indexed_intervals)
         keys = set([item[1] for item in self.indexed_intervals])
 
@@ -185,7 +177,6 @@ class Solution:
         self._main()
         answer_v = 0
         answer = []
-        # print(*self.prefixSumDP, sep='\n')
         for i in range(1, 5):
             if self.prefixSumDP[-1][i] is None:
                 continue
@@ -205,6 +196,5 @@ class Solution:
                     if answer[i] > t[i]:
                         answer = t
 
-                    
         return answer
 

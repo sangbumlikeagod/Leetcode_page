@@ -1163,6 +1163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0022-generate-parentheses) |
 | [0067-add-binary](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
@@ -1421,6 +1422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0045-jump-game-ii) |
 | [0072-edit-distance](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0072-edit-distance) |
@@ -1514,6 +1516,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0291-word-pattern-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0291-word-pattern-ii) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
@@ -1990,6 +1993,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0022-generate-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |

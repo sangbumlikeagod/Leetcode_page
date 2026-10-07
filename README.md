@@ -1174,6 +1174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0097-interleaving-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0097-interleaving-string) |
 | [0266-palindrome-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0266-palindrome-permutation) |
 | [0291-word-pattern-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0291-word-pattern-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0301-remove-invalid-parentheses) |
 | [0467-unique-substrings-in-wraparound-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0467-unique-substrings-in-wraparound-string) |
 | [0474-ones-and-zeroes](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0474-ones-and-zeroes) |
 | [0678-valid-parenthesis-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0678-valid-parenthesis-string) |
@@ -1527,6 +1528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0022-generate-parentheses) |
 | [0037-sudoku-solver](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0037-sudoku-solver) |
 | [0291-word-pattern-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0291-word-pattern-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0494-target-sum) |
 | [0679-24-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0679-24-game) |
 | [0756-pyramid-transition-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0756-pyramid-transition-matrix) |
@@ -1543,6 +1545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0279-perfect-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0279-perfect-squares) |
+| [0301-remove-invalid-parentheses](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0301-remove-invalid-parentheses) |
 | [0407-trapping-rain-water-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0787-sliding-puzzle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0787-sliding-puzzle) |

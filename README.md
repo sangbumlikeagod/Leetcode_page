@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2751-robot-collisions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2751-robot-collisions) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2784-check-if-array-is-good](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2784-check-if-array-is-good) |
 | [2792-neighboring-bitwise-xor](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2792-neighboring-bitwise-xor) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2812-find-the-safest-path-in-a-grid) |
@@ -1825,6 +1826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2174-next-greater-numerically-balanced-number](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2202-sum-of-k-mirror-numbers) |
 | [2215-finding-3-digit-even-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2215-finding-3-digit-even-numbers) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2998-count-symmetric-integers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2998-count-symmetric-integers) |

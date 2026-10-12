@@ -4,7 +4,6 @@ class Solution {
         int n = nums.length;
         for (int i = 0; i < n; i++)
         {
-
             if (n % (i + 1) == 0)
             {
                 answer += (nums[i] * nums[i]);

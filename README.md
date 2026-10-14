@@ -788,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3676-smallest-number-with-all-set-bits) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -934,6 +935,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3647-zero-array-transformation-iii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3689-maximum-total-subarray-value-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
+| [3723-maximize-sum-of-squares-of-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |

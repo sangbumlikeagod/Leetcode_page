@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/?envType=daily-question&envId=2026-10-22">4184. Minimum Operations to Sort a Permutation</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code> of length <code>n</code>, where <code>nums</code> is a <span data-keyword="permutation-array">permutation</span> of the integers from 0 to <code>n - 1</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-operations-to-sort-a-permutation">4184. Minimum Operations to Sort a Permutation</a></h2><h3>Medium</h3><hr><p>You are given an integer array <code>nums</code> of length <code>n</code>, where <code>nums</code> is a <span data-keyword="permutation-array">permutation</span> of the integers from 0 to <code>n - 1</code>.</p>
 
 <p>You may perform <strong>only</strong> the following operations:</p>
 
@@ -24,7 +24,7 @@
 	<li>Reverse the array: <code>[0, 1, 2]</code></li>
 </ul>
 
-<p>The array becomes sorted in 2 operations, which is minimal</p>
+<p>The array becomes sorted in 2 operations, which is minimal.</p>
 </div>
 
 <p><strong class="example">Example 2:</strong></p>
@@ -53,7 +53,7 @@
 
 <p><strong>Explanation:</strong></p>
 
-<p>It is impossible to reach <code>[2, 0, 1, 3]</code>. Thus, the answer is -1.</p>
+<p>It is impossible to reach <code>[0, 1, 2, 3]</code>. Thus, the answer is -1.</p>
 </div>
 
 <p>&nbsp;</p>

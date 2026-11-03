@@ -1189,6 +1189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
+| [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
 | [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -1655,6 +1656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2976-minimum-cost-to-convert-string-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
 | [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -2022,6 +2024,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3310-remove-methods-from-project](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3310-remove-methods-from-project) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3604-minimum-time-to-reach-destination-in-directed-graph](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3604-minimum-time-to-reach-destination-in-directed-graph) |
 | [3620-network-recovery-pathways](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3620-network-recovery-pathways) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 | [3970-shortest-path-with-at-most-k-consecutive-identical-characters](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3970-shortest-path-with-at-most-k-consecutive-identical-characters) |

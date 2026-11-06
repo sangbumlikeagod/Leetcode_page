@@ -12,8 +12,6 @@ class Solution {
             suffixSum[n - 1 - i] = suffixSum[n - i] + 
             ((i == 0 ? nums[n - 1 - i] : nums[n - i]) - nums[n - 1 - i]) * (i);
         }
-        // System.out.println(Arrays.toString(prefixSum));
-        // System.out.println(Arrays.toString(suffixSum));
         long answer = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++)
         {

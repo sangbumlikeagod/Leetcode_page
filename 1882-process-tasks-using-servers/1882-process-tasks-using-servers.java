@@ -34,11 +34,6 @@ class Solution {
         // unassigned
         PriorityQueue<Task> q = new PriorityQueue<>();
         PriorityQueue<Task> QAssigned = new PriorityQueue<>();
-        // Task Task1 = new Task(503, 34, 0);
-        // Task Task2 = new Task(503, 22, 0);
-        // System.out.println(
-        //     Task1.compareTo(Task2)
-        // );
 
 
         for (int i = 0; i < m; i++)
@@ -46,9 +41,7 @@ class Solution {
             int server = servers[i];
             q.add(new Task(server, i, 0));
         }
-        // System.out.println(
-        //     q.peek().weight
-        // );
+
         int[] answer = new int[n];
         for (int j = 0; j < n; j++)
         {
@@ -67,13 +60,7 @@ class Solution {
             )
             {
                 Task freeTask = QAssigned.poll();
-                // System.out.println(
-                //     statictime + " " + 
-                //     "\t " + 
-                //     freeTask.time + " " + 
-                //     freeTask.index + " " +
-                //     freeTask.weight
-                // );
+
                 q.add(
                     new Task(
                         freeTask.weight,
@@ -84,11 +71,6 @@ class Solution {
             }
 
             Task taskAssigned = q.poll();   
-            // System.out.println(
-            //     taskAssigned.time + " " + 
-            //     taskAssigned.index + " " +
-            //     taskAssigned.weight
-            // );
             answer[j] = taskAssigned.index;
             QAssigned.add(new Task(
                 taskAssigned.weight,

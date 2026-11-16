@@ -1298,6 +1298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2211-count-collisions-on-a-road](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2211-count-collisions-on-a-road) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2232-adding-spaces-to-a-string) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2300-construct-string-with-repeat-limit) |
@@ -1445,6 +1446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2169-simple-bank-system) |
 | [2211-count-collisions-on-a-road](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2211-count-collisions-on-a-road) |
 | [2232-adding-spaces-to-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2232-adding-spaces-to-a-string) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2288-count-operations-to-obtain-zero) |

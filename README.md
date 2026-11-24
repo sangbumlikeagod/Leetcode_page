@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1345-jump-game-iv](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-jump-game-iv) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1352-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1352-product-of-the-last-k-numbers) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1364-tuple-with-same-product](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1364-tuple-with-same-product) |
@@ -619,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1140-stone-game-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1140-stone-game-ii) |
+| [1352-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1352-product-of-the-last-k-numbers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [1524-number-of-sub-arrays-with-odd-sum](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1524-number-of-sub-arrays-with-odd-sum) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1537-maximum-score-after-splitting-a-string) |
@@ -743,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1266-minimum-time-visiting-all-points](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1266-minimum-time-visiting-all-points) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1345-perform-string-shifts](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1345-perform-string-shifts) |
+| [1352-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1352-product-of-the-last-k-numbers) |
 | [1390-four-divisors](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1390-four-divisors) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1406-stone-game-iii) |
@@ -1882,6 +1885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/0460-lfu-cache) |
+| [1352-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1352-product-of-the-last-k-numbers) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 | [2023-design-movie-rental-system](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2023-design-movie-rental-system) |
@@ -1895,6 +1899,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [1352-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1352-product-of-the-last-k-numbers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/1477-product-of-the-last-k-numbers) |
 ## Enumeration
 |  |

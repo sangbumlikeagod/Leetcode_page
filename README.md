@@ -803,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3312-sorted-gcd-pair-queries](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3312-sorted-gcd-pair-queries) |
 | [3321-type-of-triangle](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3321-type-of-triangle) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3360-stone-removal-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3360-stone-removal-game) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3433-count-mentions-per-user](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3433-count-mentions-per-user) |
 | [3462-vowels-game-in-a-string](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3462-vowels-game-in-a-string) |
@@ -1465,6 +1466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2751-robot-collisions](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/2751-robot-collisions) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3360-stone-removal-game](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3360-stone-removal-game) |
 | [3433-count-mentions-per-user](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3433-count-mentions-per-user) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3447-clear-digits) |

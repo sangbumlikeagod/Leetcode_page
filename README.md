@@ -389,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3903-smallest-stable-index-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3904-smallest-stable-index-ii) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3942-minimum-operations-to-sort-a-permutation) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -983,6 +984,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3727-maximum-alternating-sum-of-squares](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Number Theory
 |  |
 | ------- |
@@ -1605,6 +1607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3856-maximum-weighted-k-edge-path](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3856-maximum-weighted-k-edge-path) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3882-minimum-xor-path-in-a-grid) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/sangbumlikeagod/Leetcode_page/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Backtracking
 |  |
 | ------- |
